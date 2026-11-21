@@ -1,0 +1,841 @@
+id,text,label,origen,split
+ex-0272,el teléfono dañado desde desde el primer día.,1,sintetico_revisado,train
+ex-0079,¿A qué hora puedo cambiar mi dirección en el catálogo?,0,sintetico_revisado,train
+ex-0378,Me comentan que mi cuenta rayado.,1,sintetico_revisado,train
+ex-0618,Quiero saber el costo si hay un cargo duplicado.,0,sintetico_revisado,train
+ex-0016,Llevo varias horas esperando el soporte y nadie da una explicación.,1,sintetico_revisado,train
+ex-0393,¿No deberían resolver la factura sin costo?,1,sintetico_revisado,train
+ex-0174,Solo pregunto: ¿por qué el soporte sigue mojado?,1,sintetico_revisado,train
+ex-0979,Quisiera saber compatibilidad sobre mi solicitud.,0,sintetico_revisado,train
+ex-0024,¿No deberían resolver mi cuenta sin costo?,1,sintetico_revisado,train
+ex-0984,Solo pregunto: ¿por qué mi cuenta sigue abierto?,1,sintetico_revisado,train
+ex-0865,"Si el cobro está dañado, ¿cómo activar la garantía?",0,sintetico_revisado,train
+ex-0622,Quiero saber si el soporte incluye precio.,0,sintetico_revisado,train
+ex-0234,Quiero saber si mi cuenta incluye manual.,0,sintetico_revisado,train
+ex-0939,la bicicleta mojado desde desde el primer día.,1,sintetico_revisado,train
+ex-0675,¿Cuál es el detalle de política de devolución de el paquete?,0,sintetico_revisado,train
+ex-0762,la factura dañado y no tengo respuesta.,1,sintetico_revisado,train
+ex-0131,Me gustaría entender por qué el envío rayado.,1,sintetico_revisado,train
+ex-0030,Me gustaría conocer cobertura antes de activar la garantía.,0,sintetico_revisado,train
+ex-0989,¿Cuánto tiempo más tengo que esperar mi cuenta?,1,sintetico_revisado,train
+ex-0993,¿Podrían decirme por qué la garantía no carga?,1,sintetico_revisado,train
+ex-0960,"Si la garantía está tardío, ¿cómo cancelar un pedido?",0,sintetico_revisado,train
+ex-0650,"En caso de la factura mojado, ¿cuál es el detalle de horario?",0,sintetico_revisado,train
+ex-0536,¿No deberían resolver mi pedido sin costo?,1,sintetico_revisado,train
+ex-0398,el router incompleto desde desde el primer día.,0,sintetico_revisado,train
+ex-0609,Sobre mi cuenta: abierto y sin novedades.,1,sintetico_revisado,train
+ex-0719,Solo pregunto: ¿por qué el soporte sigue tardío?,1,sintetico_revisado,train
+ex-0159,el telefono abierto desde desde el primer día.,1,sintetico_revisado,train
+ex-0657,Sobre la entrega: tardío y sin novedades.,0,sintetico_revisado,train
+ex-0249,¿Es normal que la entrega esté rayado?,1,sintetico_revisado,train
+ex-0239,me comentan que la garantía con fallas.,1,sintetico_revisado,train
+ex-0136,el soporte rayado y no tengo respuesta.,1,sintetico_revisado,train
+ex-0595,¿Qué hago si mi solicitud no enciende?,0,sintetico_revisado,train
+ex-0045,consulta: ¿se puede solicitar una devolución con transferencia?,0,sintetico_revisado,train
+ex-1013,Me comentan que el cobro con fallas..,0,sintetico_revisado,train
+ex-0337,"Buen día, ¿podrían indicarme la información sobre precio?",0,sintetico_revisado,train
+ex-0461,¿Cuál es el detalle de garantía de la laptop?,0,sintetico_revisado,train
+ex-0880,no entiendo características: ¿me explican?,0,sintetico_revisado,train
+ex-0075,solo pregunto: ¿por qué la garantía sigue tardío?,1,sintetico_revisado,train
+ex-0582,mi cuenta mojado y no tengo respuesta.,1,sintetico_revisado,train
+ex-0513,Hay un descuento que no aplicaron en mi factura y esperaba otra cosa.,1,sintetico_revisado,train
+ex-0991,¿A qué hora puedo obtener el manual en la web?,0,sintetico_revisado,train
+ex-0446,"En caso de mi pedido con fallas, ¿cuál es el detalle de características?",0,sintetico_revisado,train
+ex-0420,"en caso de la garantía incompleto, ¿cuál es el detalle de manual?",0,sintetico_revisado,train
+ex-0365,"Me parece pésima que la entrega, es inaceptable..",1,sintetico_revisado,train
+ex-0921,¿Cuál es el detalle de costo de envío de la impresora?,0,sintetico_revisado,train
+ex-0858,la garantía rayado y no tengo respuesta.,1,sintetico_revisado,train
+ex-0259,el router tiene rayas y es inaceptable.,1,sintetico_revisado,train
+ex-0017,mi cuenta abierto y no tengo respueta.,1,sintetico_revisado,train
+ex-0203,Hay un cargo duplicado en mi factura y requiero respuesta.,1,sintetico_revisado,train
+ex-0047,la suscripción abierto desde hace una semana.,1,sintetico_revisado,train
+ex-0213,"Me preocupa la garantía, ¿cuál es el detalle de compatibilidad?",0,sintetico_revisado,train
+ex-0735,mi pedido mojado y no tengo respuesta.,0,sintetico_revisado,train
+ex-0670,"me molesta no saber manual, ¿podrían decirme?",0,sintetico_revisado,train
+ex-0654,"mi solicitud dañado, ¿qué sigue?",0,sintetico_revisado,train
+ex-0204,Solicité la cancelación de la factura y todavía voy a reportarlo.,1,sintetico_revisado,train
+ex-0655,Quiero saber el costo si hay un cobro extra.,0,sintetico_revisado,train
+ex-0060,Seguimos sin la factura y quisiera una respueta.,1,sintetico_revisado,train
+ex-0215,Quiero saber el costo si hay un cargo duplicado.,0,sintetico_revisado,train
+ex-0224,el pedido no carga desde ayer.,1,sintetico_revisado,train
+ex-0830,el cobro con fallas y no tengo respuesta.,0,sintetico_revisado,train
+ex-0114,Quiero saber el costo si hay un monto incorrecto.,0,sintetico_revisado,train
+ex-0372,"el paquete se rompió y tiene un golpe, esperaba otra cosa.",1,sintetico_revisado,train
+ex-0874,¿Cuál es el detalle de precio de la impresora?,0,sintetico_revisado,train
+ex-0165,la cafetera tiene un error y pido una aclaración.,1,sintetico_revisado,train
+ex-0665,el taladro llegó mojado y es inaceptable.,1,sintetico_revisado,train
+ex-0015,Seguimos sin la factura y quisiera una respuesta.,1,sintetico_revisado,train
+ex-0241,¿cuánto cuesta laptop?,0,sintetico_revisado,train
+ex-0184,mi solicitud tardío y no tengo respuesta.,0,sintetico_revisado,train
+ex-0868,"Me molesta no saber manual, ¿podrían decirme?",0,sintetico_revisado,train
+ex-0842,¿Cuánto tiempo más tengo que esperar la garantía?,1,sintetico_revisado,train
+ex-0315,"Siento confusión con mi solicitud, ¿cuál es el precio?",0,sintetico_revisado,train
+ex-0540,Solo pregunto: ¿por qué el cobro sigue abierto?,1,sintetico_revisado,train
+ex-0807,la laptop tardío desde desde el primer día.,0,sintetico_revisado,train
+ex-0951,Llevo más de una semana esperando mi solicitud y nadie se comunica.,1,sintetico_revisado,train
+ex-0974,Me comentan que mi pedido dañado..,0,sintetico_revisado,train
+ex-0333,¿Hay que solicitar una devolución aunque la devolución esté rayado?,0,sintetico_revisado,train
+ex-0054,"Buen día, ¿podrían indicarme la informacion sobre horario?",0,sintetico_revisado,train
+ex-0957,No entiendo garantía: ¿me explican?,0,sintetico_revisado,train
+ex-0610,"Me parece incoherente que la garantía, voy a reportarlo.",1,sintetico_revisado,train
+ex-0688,Me comentan que el cobro tardío.,1,sintetico_revisado,train
+ex-0803,Sobre mi cuenta: mojado y sin novedades.,1,sintetico_revisado,train
+ex-0088,Llevo dos días esperando mi cuenta y nadie resuelve nada.,1,sintetico_revisado,train
+ex-0844,Llevo dos días esperando mi solicitud y nadie se comunica.,1,sintetico_revisado,train
+ex-0884,Quiero saber si el cobro incluye compatibilidad.,0,sintetico_revisado,train
+ex-0592,Tengo una duda sobre características de tablet.,0,sintetico_revisado,train
+ex-0007,Sobre la entrega: rayado y sin novedades.,0,sintetico_revisado,train
+ex-0154,"Tengo un problema con la garantía, ¿cómo obtener el manual?",0,sintetico_revisado,train
+ex-0152,la cafetera no conecta desde ayer.,1,sintetico_revisado,train
+ex-0602,Sobre la factura: mojado y sin novedades.,0,sintetico_revisado,train
+ex-0350,el router tiene rayas y voy a reportarlo..,1,sintetico_revisado,train
+ex-0533,"Tengo un problema con mi cuenta, ¿cómo solicitar una devolución?",0,sintetico_revisado,train
+ex-0271,No entiendo precio: ¿me explican?,0,sintetico_revisado,train
+ex-0269,"mi cuenta incompleto, ¿qué sigue?",1,sintetico_revisado,train
+ex-0108,"mi pedido incompleto, ¿qué sigue?",1,sintetico_revisado,train
+ex-0198,Me comentan que la devolución incompleto..,0,sintetico_revisado,train
+ex-0128,"Tengo un problema con mi solicitud, ¿cómo activar la garantía?",0,sintetico_revisado,train
+ex-0229,Me gustaría conocer cobertura antes de pagar.,0,sintetico_revisado,train
+ex-0543,Qué política de devolución tiene tablet?,0,sintetico_revisado,train
+ex-0409,la cafetera llegó mojado y quiero una solución.,1,sintetico_revisado,train
+ex-0692,La garantía no enciende y esperaba otra cosa..,1,sintetico_revisado,train
+ex-0949,la suscripcion con fallas desde después de la actualización..,0,sintetico_revisado,train
+ex-0312,"No quiero quejarme, aunque el cobro con fallas desde desde el primer día.",1,sintetico_revisado,train
+ex-0089,me comentan que el envío tardío.,0,sintetico_revisado,train
+ex-0853,"No quiero quejarme, aunque el envío abierto desde ayer.",1,sintetico_revisado,train
+ex-0433,¿Hay que solicitar una devolución aunque mi cuenta esté con fallas?,0,sintetico_revisado,train
+ex-0496,"si el cobro está rayado, ¿cómo pagar?",0,sintetico_revisado,train
+ex-0566,Consulta urgente: el soporte incompleto y necesito una solución.,1,sintetico_revisado,train
+ex-0308,el envío con fallas y no tengo respuesta.,1,sintetico_revisado,train
+ex-0551,"la factura abierto, ¿qué sigue?",0,sintetico_revisado,train
+ex-0381,"la garantía abierto, ¿qué sigue?",1,sintetico_revisado,train
+ex-0667,¿A qué hora puedo cambiar mi dirección en sucursales?,0,sintetico_revisado,train
+ex-0090,Consulta urgente: el cobro abierto y necesito una solución.,1,sintetico_revisado,train
+ex-0616,Me cobraron una comisión no anunciada y no acepto esto.,1,sintetico_revisado,train
+ex-0476,quisiera saber plazo de entrega sobre mi solicitud.,0,sintetico_revisado,train
+ex-0310,Quiero conocer compatibilidad para hacer un pedido..,0,sintetico_revisado,train
+ex-0598,Qué disponibilidad tiene cafetera?,0,sintetico_revisado,train
+ex-0731,"Si el cobro está tardío, ¿cómo contactar soporte?",0,sintetico_revisado,train
+ex-0153,"la laptop se rompió y tiene piezas sueltas, no acepto esto.",1,sintetico_revisado,train
+ex-0245,el microondas mojado desde ayer.,1,sintetico_revisado,train
+ex-0506,la devolución rayado y no tengo respuesta.,1,sintetico_revisado,train
+ex-0970,Sobre mi solicitud: incompleto y sin novedades.,1,sintetico_revisado,train
+ex-0846,"No quiero quejarme, aunque el soporte incompleto desde ayer.",1,sintetico_revisado,train
+ex-0380,quisiera saber tiempo de respuesta sobre la devolución.,0,sintetico_revisado,train
+ex-0359,La garantía no conecta y necesito un reembolso.,1,sintetico_revisado,train
+ex-0677,Me comentan que mi cuenta incompleto.,0,sintetico_revisado,train
+ex-0910,¿A qué hora puedo hacer un pedido en el catálogo?,0,sintetico_revisado,train
+ex-0293,la laptop tiene un golpe y no acepto esto.,1,sintetico_revisado,train
+ex-0264,Es confusa que nadie resuelve nada sobre el soporte.,1,sintetico_revisado,train
+ex-0292,Tengo una duda sobre tiempo de respuesta de tablet.,0,sintetico_revisado,train
+ex-0705,"si el cobro está dañado, ¿cómo obtener el manual?",0,sintetico_revisado,train
+ex-0353,Me comentan que la factura con fallas.,0,sintetico_revisado,train
+ex-0414,Me comentan que mi solicitud con fallas.,1,sintetico_revisado,train
+ex-0938,"Tengo un problema con la entrega, ¿cómo seguir mi envío?",0,sintetico_revisado,train
+ex-0026,mi cuenta abierto y no tengo respuesta.,1,sintetico_revisado,train
+ex-0423,"el soporte dañado, ¿qué sigue?",1,sintetico_revisado,train
+ex-0553,Sobre la entrega: abierto y sin novedades.,1,sintetico_revisado,train
+ex-0330,"la garantía con fallas, ¿qué sigue?",1,sintetico_revisado,train
+ex-0617,Me comentan que mi pedido mojado.,1,sintetico_revisado,train
+ex-0020,¿Puedo activar la garantía en sucursales?,0,sintetico_revisado,train
+ex-0155,Consulta urgente: el envío mojado y necesito una solución.,1,sintetico_revisado,train
+ex-0492,¿Cuánto tiempo más tengo que esperar la devolución?,1,sintetico_revisado,train
+ex-0013,¿Puedo hacer un pedido en el catálogo?,0,sintetico_revisado,train
+ex-0814,Me comentan que mi solicitud mojado.,0,sintetico_revisado,train
+ex-0656,Llevo desde ayer esperando la devolución y nadie contesta.,1,sintetico_revisado,train
+ex-0194,Sobre la garantía: abierto y sin novedades.,0,sintetico_revisado,train
+ex-0855,Qué costo de envío tiene impresora?,0,sintetico_revisado,train
+ex-0100,Sobre mi solicitud: rayado y sin novedades.,1,sintetico_revisado,train
+ex-0498,la impresora dañado desde ayer.,0,sintetico_revisado,train
+ex-0935,Me comentan que la garantía tardio.,1,sintetico_revisado,train
+ex-0307,"Me molesta no saber disponibilidad, ¿podrían decirme?",0,sintetico_revisado,train
+ex-0716,sobre el cobroo: abierto y sin novedades.,0,sintetico_revisado,train
+ex-0483,Me comentan que la factura dañado.,1,sintetico_revisado,train
+ex-0225,¿Puedo cambiar mi dirección en el catálogo?,0,sintetico_revisado,train
+ex-0456,"la tablet se rompió y tiene rayas, es inaceptable.",1,sintetico_revisado,train
+ex-0258,¿es normal que el cobroo esté tardío?,1,sintetico_revisado,train
+ex-0556,¿A qué hora puedo activar la garantía en sucursales?,0,sintetico_revisado,train
+ex-0519,¿Qué hago si mi cuenta no funciona?,0,sintetico_revisado,train
+ex-0027,No entiendo plazo de entrega: ¿me explican?,0,sintetico_revisado,train
+ex-0552,¿Es normal que la entrega esté dañado?,1,sintetico_revisado,train
+ex-0190,¿Puedo cancelar un pedido en la app?,0,sintetico_revisado,train
+ex-0987,Seguimos sin la garantía y quisiera una respuesta.,1,sintetico_revisado,train
+ex-0208,Sobre mi solicitud: abierto y sin novedades.,1,sintetico_revisado,train
+ex-0384,Quiero saber el costo si hay un monto incorrecto.,0,sintetico_revisado,train
+ex-0288,el microondas llegó con fallas y es inaceptable.,1,sintetico_revisado,train
+ex-0860,Me gustaría conocer cobertura antes de hacer un pedido.,0,sintetico_revisado,train
+ex-0780,"no quiero quejarme, aunque el soporte incompleto desde ayer.",1,sintetico_revisado,train
+ex-0458,"Si la devolución está rayado, ¿cómo pagar?",0,sintetico_revisado,train
+ex-0658,Quiero saber si la entrega incluye costo de envío.,0,sintetico_revisado,train
+ex-0674,"tengo un problema con la devolución, ¿cómo pagar?",0,sintetico_revisado,train
+ex-0501,"me preocupa la devolución, ¿cuál es el detalle de manual?",0,sintetico_revisado,train
+ex-0872,"la garantía tardío, ¿qué sigue?",1,sintetico_revisado,train
+ex-0266,¿A qué hora puedo seguir mi envío en sucursales?,0,sintetico_revisado,train
+ex-0772,¿Podrían decirme por qué mi pedido no enciende?,1,sintetico_revisado,train
+ex-0057,"mi solicitud con fallas, ¿qué sigue?",0,sintetico_revisado,train
+ex-0660,¿Es normal que mi cuenta esté tardío?,1,sintetico_revisado,train
+ex-0988,Me comentan que mi cuenta con fallas..,0,sintetico_revisado,train
+ex-0261,sobre el cobroo: rayado y sin novedades.,0,sintetico_revisado,train
+ex-0474,"Me parece insuficiente que mi pedido, quiero una solución.",1,sintetico_revisado,train
+ex-0116,la cámara incompleto desde después de la actualización.,1,sintetico_revisado,train
+ex-0590,Hay una comisión no anunciada en mi factura y es inaceptable.,1,sintetico_revisado,train
+ex-0063,"Si el cobro está abierto, ¿cómo pagar?",0,sintetico_revisado,train
+ex-0362,la atención fue incoherente y pido una aclaración.,1,sintetico_revisado,train
+ex-0324,Me comentan que mi pedido incompleto.,1,sintetico_revisado,train
+ex-0854,Me comentan que la devolución dañado.,1,sintetico_revisado,train
+ex-0391,la tablet no enciende desde ayer.,1,sintetico_revisado,train
+ex-0911,Sobre la garantía: dañado y sin novedades.,1,sintetico_revisado,train
+ex-0227,"el cobro mojado, ¿qué sigue?",0,sintetico_revisado,train
+ex-0876,"Buen día, ¿podrían indicarme la información sobre plazo de entrega?",0,sintetico_revisado,train
+ex-0138,Me gustaría conocer cobertura antes de activar la garantía.,0,sintetico_revisado,train
+ex-0819,"la devolución mojado, ¿qué sigue?",1,sintetico_revisado,train
+ex-0327,mi pedido con fallas y no tengo respuesta.,0,sintetico_revisado,train
+ex-0732,"Si mi cuenta está tardío, ¿cómo contactar soporte?",0,sintetico_revisado,train
+ex-0172,el envío tardío y no tengo respuesta.,1,sintetico_revisado,train
+ex-0771,Quiero saber el costo si hay un cargo duplicado.,0,sintetico_revisado,train
+ex-0192,Qué plazo de entrega tiene silla?,0,sintetico_revisado,train
+ex-0178,¿Qué hago si mi solicitud no carga?,0,sintetico_revisado,train
+ex-0343,"Me preocupa la factura, ¿cuál es el detalle de compatibilidad?",0,sintetico_revisado,train
+ex-0695,Llevo desde el lunes esperando el soporte y nadie se comunica.,1,sintetico_revisado,train
+ex-0303,"Me preocupa la factura, ¿cuál es el detalle de costo de envío?",0,sintetico_revisado,train
+ex-0739,"mi cuenta dañado, ¿qué sigue?",0,sintetico_revisado,train
+ex-0782,Solicité la cancelación de el cobro y todavía no acepto esto.,1,sintetico_revisado,train
+ex-0992,¿Hay que seguir mi envío aunque la entrega esté incompleto?,0,sintetico_revisado,train
+ex-0518,¿Cuánto tiempo más tengo que esperar la entrega?,1,sintetico_revisado,train
+ex-0764,la cámara abierto desde hace una semana.,1,sintetico_revisado,train
+ex-0535,Solicité la cancelación de mi cuenta y todavía esperaba otra cosa.,1,sintetico_revisado,train
+ex-0579,"el cobro dañado, ¿qué sigue?",1,sintetico_revisado,train
+ex-0972,el paquete rayado desde desde el primer día.,1,sintetico_revisado,train
+ex-0149,Me gustaría entender por qué el cobro con fallas.,1,sintetico_revisado,train
+ex-0087,Sobre mi pedido: tardio y sin novedades..,0,sintetico_revisado,train
+ex-0822,Sobre la garantía: rayado y sin novedades.,0,sintetico_revisado,train
+ex-0125,"tengo un problema con la factura, ¿cómo solicitar una devolución?",0,sintetico_revisado,train
+ex-0454,la entrega rayado y no tengo respuesta..,1,sintetico_revisado,train
+ex-0385,¿Puedo hacer un pedido en el catálogo?,0,sintetico_revisado,train
+ex-0744,el microondas rayado desde ayer.,0,sintetico_revisado,train
+ex-0644,la devolución abierto y no tengo respuesta.,1,sintetico_revisado,train
+ex-0693,Qué horario tiene impresora?,0,sintetico_revisado,train
+ex-0231,el pedido dañado desde ayer.,0,sintetico_revisado,train
+ex-0218,Solicité la cancelación de el cobro y todavía no acepto esto.,1,sintetico_revisado,train
+ex-0577,"Me parece decepcionante que el soporte, quiero una solución.",1,sintetico_revisado,train
+ex-0489,la tablet incompleto desde hace una semana.,1,sintetico_revisado,train
+ex-0525,qué política de devolución tiene paquete?,0,sintetico_revisado,train
+ex-0612,el microondas con fallas desde desde el primer día.,0,sintetico_revisado,train
+ex-0741,"Si la entrega está dañado, ¿cómo pagar?",0,sintetico_revisado,train
+ex-0305,"En caso de la devolución mojado, ¿cuál es el detalle de costo de envío?",0,sintetico_revisado,train
+ex-0945,"me preocupa la entrega, ¿cuál es el detalle de características?",0,sintetico_revisado,train
+ex-0173,La garantía no carga y necesito un reembolso.,1,sintetico_revisado,train
+ex-0549,"el monitor se rompió y tiene rayas, requiero respuesta.",1,sintetico_revisado,train
+ex-0091,"Tengo un problema con la devolución, ¿cómo seguir mi envío?",0,sintetico_revisado,train
+ex-0334,Me comentan que mi solicitud rayado.,0,sintetico_revisado,train
+ex-0624,"Si la factura está abierto, ¿cómo cancelar un pedido?",0,sintetico_revisado,train
+ex-0407,Necesito información sobre política de devolución.,0,sintetico_revisado,train
+ex-0600,Me gustaría conocer características antes de pagar..,0,sintetico_revisado,train
+ex-0628,Sobre la factura: con fallas y sin novedades.,1,sintetico_revisado,train
+ex-0140,Quiero saber el costo si hay un cobro extra.,0,sintetico_revisado,train
+ex-0745,Quiero saber si el envío incluye horario.,0,sintetico_revisado,train
+ex-0032,"Me molesta no saber costo de envío, ¿podrían decirme?",0,sintetico_revisado,train
+ex-0117,Sobre la factura: abierto y sin novedades.,0,sintetico_revisado,train
+ex-0375,"mi pedido rayado, ¿qué sigue?",1,sintetico_revisado,train
+ex-0491,Consulta: ¿se puede cancelar un pedido con efectivo?,0,sintetico_revisado,train
+ex-0565,Me comentan que el envío con fallas.,0,sintetico_revisado,train
+ex-0134,la silla no funciona desde desde el primer día.,1,sintetico_revisado,train
+ex-0147,Quisiera saber características sobre el cobro.,0,sintetico_revisado,train
+ex-0593,Sobre mi pedido: tardío y sin novedades.,1,sintetico_revisado,train
+ex-0894,Seguimos sin mi cuenta y quisiera una respuesta.,1,sintetico_revisado,train
+ex-0906,Sobre la devolución: rayado y sin novedades.,1,sintetico_revisado,train
+ex-0817,Me comentan que la garantía con fallas.,0,sintetico_revisado,train
+ex-0737,"Buen día, ¿podrían indicarme la información sobre disponibilidad?",0,sintetico_revisado,train
+ex-0859,Sobre el envío: mojado y sin novedades.,1,sintetico_revisado,train
+ex-0686,"no es una queja, pero el tablet llegó dañado y nadie se comunica.",1,sintetico_revisado,train
+ex-0888,La garantía no conecta y requiero respuesta.,1,sintetico_revisado,train
+ex-0151,el monitor mojado desde ayer.,0,sintetico_revisado,train
+ex-0568,"No es una queja, pero el cafetera llegó mojado y nadie responde.",1,sintetico_revisado,train
+ex-0925,"la devolución abierto, ¿qué sigue?",1,sintetico_revisado,train
+ex-0916,la tablet tardio desde hace una semana.,1,sintetico_revisado,train
+ex-0558,Quiero saber si la garantía incluye manual.,0,sintetico_revisado,train
+ex-0276,"mi pedido abierto, ¿qué sigue?",0,sintetico_revisado,train
+ex-0955,"Me preocupa el cobro, ¿cuál es el detalle de características?",0,sintetico_revisado,train
+ex-0717,¿Es normal que la entrega esté dañado?,1,sintetico_revisado,train
+ex-1002,Consulta urgente: la garantía tardío y necesito una solución.,1,sintetico_revisado,train
+ex-0898,Me comentan que la factura tardío.,0,sintetico_revisado,train
+ex-0119,la garantía rayado y no tengo respuesta..,1,sintetico_revisado,train
+ex-0346,"mi pedido incompleto, ¿qué sigue?",0,sintetico_revisado,train
+ex-0827,Necesito información sobre precio.,0,sintetico_revisado,train
+ex-0673,mi solicitud mojado y no tengo respuesta.,0,sintetico_revisado,train
+ex-0217,¿Puedo seguir mi envío en la tienda?,0,sintetico_revisado,train
+ex-0005,Me comentan que la garantía dañado..,0,sintetico_revisado,train
+ex-0659,el envío dañado y no tengo respuesta.,0,sintetico_revisado,train
+ex-0798,Me comentan que la devolución tardío.,0,sintetico_revisado,train
+ex-0282,"Si la garantía está dañado, ¿cómo contactar soporte?",0,sintetico_revisado,train
+ex-0419,La garantía no conecta y no acepto esto.,1,sintetico_revisado,train
+ex-0373,¿Puedo cancelar un pedido en la app?,0,sintetico_revisado,train
+ex-0934,nadie contesta mi el soporte después de desde ayer.,1,sintetico_revisado,train
+ex-0035,"mi cuenta tardío, ¿qué sigue?",0,sintetico_revisado,train
+ex-0968,Sobre mi cuenta: rayado y sin novedades.,0,sintetico_revisado,train
+ex-0253,¿Qué hago si la entrega no enciende?,0,sintetico_revisado,train
+ex-0645,"No quiero quejarme, aunque la devolución abierto desde ayer.",1,sintetico_revisado,train
+ex-0123,Recibí el envío de forma incorrecta y requiero respuesta.,1,sintetico_revisado,train
+ex-0295,la factura mojado y no tengo respuesta.,1,sintetico_revisado,train
+ex-0471,Me comentan que el envío incompleto.,1,sintetico_revisado,train
+ex-0712,Quisiera saber costo de envío sobre la factura.,0,sintetico_revisado,train
+ex-0749,Me comentan que la devolución mojado.,0,sintetico_revisado,train
+ex-0480,Me comentan que el soporte mojado.,1,sintetico_revisado,train
+ex-0541,¿Cuánto cuesta silla?,0,sintetico_revisado,train
+ex-0877,Seguimos sin la factura y quisiera una respuesta.,1,sintetico_revisado,train
+ex-0724,"mi pedido mojado, ¿qué sigue?",0,sintetico_revisado,train
+ex-0560,la cámara dañado desde ayer.,0,sintetico_revisado,train
+ex-0948,Consulta urgente: el soporte dañado y necesito una solución.,1,sintetico_revisado,train
+ex-0223,Hay una comisión no anunciada en mi factura y necesito un reembolso.,1,sintetico_revisado,train
+ex-0448,Qué plazo de entrega tiene paquete?,0,sintetico_revisado,train
+ex-0723,Me gustaría entender por qué el cobro rayado.,1,sintetico_revisado,train
+ex-0487,consulta: ¿se puede obtener el manual con tarjeta?,0,sintetico_revisado,train
+ex-0637,¿es normal que el soporte esté rayado?,1,sintetico_revisado,train
+ex-0751,Me gustaría entender por qué mi pedido tardío.,1,sintetico_revisado,train
+ex-0800,"Tengo un problema con mi solicitud, ¿cómo activar la garantía?",0,sintetico_revisado,train
+ex-0052,"Si la devolución está rayado, ¿cómo pagar?",0,sintetico_revisado,train
+ex-0642,"la devolución dañado, ¿qué sigue?",0,sintetico_revisado,train
+ex-0832,¿Podrían decirme por qué la devolución no enciende?,1,sintetico_revisado,train
+ex-0913,la garantía abierto y no tengo respuesta.,1,sintetico_revisado,train
+ex-1009,Me cobraron un monto incorrecto y es inaceptable.,1,sintetico_revisado,train
+ex-1017,Sobre mi pedido: mojado y sin novedades.,1,sintetico_revisado,train
+ex-0709,Es mala que nadie resuelve nada sobre la entrega..,1,sintetico_revisado,train
+ex-0908,"Tengo un problema con el envío, ¿cómo solicitar una devolución?",0,sintetico_revisado,train
+ex-0684,¿Cuánto tiempo más tengo que esperar mi pedido?,1,sintetico_revisado,train
+ex-0001,¿Cuánto tiempo más tengo que esperar el envío?,1,sintetico_revisado,train
+ex-0267,"tengo un problema con el cobro, ¿cómo cancelar un pedido?",0,sintetico_revisado,train
+ex-0966,Consulta: ¿se puede obtener el manual con transferencia?,0,sintetico_revisado,train
+ex-0130,¿cómo puedo cambiar mi dirección mi la devolución?,0,sintetico_revisado,train
+ex-0422,¿Es normal que la devolución esté rayado?,1,sintetico_revisado,train
+ex-0629,Me comentan que la entrega rayado.,1,sintetico_revisado,train
+ex-0105,Me comentan que la devolución mojado.,0,sintetico_revisado,train
+ex-0915,"Siento confusión con mi cuenta, ¿cuál es el garantía?",0,sintetico_revisado,train
+ex-0587,El servicio tardío y requiero respuesta.,1,sintetico_revisado,train
+ex-0051,el envío tardio y no tengo respuesta.,0,sintetico_revisado,train
+ex-0429,Sobre mi cuenta: rayado y sin novedades.,0,sintetico_revisado,train
+ex-0933,"la cafetera se rompió y tiene un ruido raro, esperaba otra cosa.",1,sintetico_revisado,train
+ex-0434,Me gustaría entender por qué el envío abierto.,1,sintetico_revisado,train
+ex-0630,¿Es normal que el cobro esté tardio?,1,sintetico_revisado,train
+ex-0544,Seguimos sin mi pedido y quisiera una respuesta.,1,sintetico_revisado,train
+ex-1019,La atención fue pésima y quiero una solución.,1,sintetico_revisado,train
+ex-0917,Solo pregunto: ¿por qué la entrega sigue tardío?,1,sintetico_revisado,train
+ex-0923,La atención fue confusa y quiero una solución.,1,sintetico_revisado,train
+ex-0129,"en caso de la devolución tardío, ¿cuál es el detalle de plazo de entrega?",0,sintetico_revisado,train
+ex-0390,"Si mi solicitud está incompleto, ¿cómo obtener el manual?",0,sintetico_revisado,train
+ex-0046,Me comentan que la entrega mojado.,0,sintetico_revisado,train
+ex-0479,el paquete mojado desde ayer.,0,sintetico_revisado,train
+ex-0055,"Si la garantía está abierto, ¿cómo obtener el manual?",0,sintetico_revisado,train
+ex-0567,Sobre el soporte: tardío y sin novedades.,0,sintetico_revisado,train
+ex-0959,Nadie contesta mi la garantía después de desde el lunes.,1,sintetico_revisado,train
+ex-0584,Sobre la devolución: dañado y sin novedades.,1,sintetico_revisado,train
+ex-0546,Me gustaría entender por qué mi pedido incompleto.,1,sintetico_revisado,train
+ex-0941,Quiero saber si el envío incluye costo de envío.,0,sintetico_revisado,train
+ex-0828,"la garantía abierto, ¿qué sigue?",1,sintetico_revisado,train
+ex-0632,¿es normal que la devolución esté incompleto?,1,sintetico_revisado,train
+ex-0317,Sobre la garantía: dañado y sin novedades.,1,sintetico_revisado,train
+ex-0499,Me comentan que mi cuenta abierto.,0,sintetico_revisado,train
+ex-0439,Me cobraron una comisión no anunciada y requiero respueta.,1,sintetico_revisado,train
+ex-0863,¿Cómo puedo cancelar un pedido mi el soporte?,0,sintetico_revisado,train
+ex-0914,"Si mi cuenta está con fallas, ¿cómo obtener el manual?",0,sintetico_revisado,train
+ex-0339,¿Podrían decirme por qué mi pedido no funciona?,1,sintetico_revisado,train
+ex-0118,la cámara abierto desde desde el primer día.,1,sintetico_revisado,train
+ex-0715,Sobre la garantía: rayado y sin novedades.,1,sintetico_revisado,train
+ex-0432,Me comentan que la entrega tardio.,0,sintetico_revisado,train
+ex-0031,Hay un cobro extra en mi factura y requiero respuesta..,1,sintetico_revisado,train
+ex-0066,la factura abierto y no tengo respuesta.,1,sintetico_revisado,train
+ex-0034,¿No deberían resolver mi pedido sin costo?,1,sintetico_revisado,train
+ex-0778,La garantía no enciende y no acepto esto.,1,sintetico_revisado,train
+ex-0053,¿Puedo obtener el manual en la web?,0,sintetico_revisado,train
+ex-0302,"Si la factura está rayado, ¿cómo obtener el manual?",0,sintetico_revisado,train
+ex-0779,Me gustaría entender por qué mi solicitud rayado.,1,sintetico_revisado,train
+ex-0070,"Buen día, ¿podrían indicarme la información sobre cobertura?",0,sintetico_revisado,train
+ex-0437,la cámara llego mojado y es inaceptable.,1,sintetico_revisado,train
+ex-0892,Seguimos sin mi solicitud y quisiera una respuesta.,1,sintetico_revisado,train
+ex-0486,Necesito información sobre manual.,0,sintetico_revisado,train
+ex-0167,solo pregunto: ¿por qué mi solicitud sigue con fallas?,1,sintetico_revisado,train
+ex-0351,¿Cuál es el detalle de costo de envío de la cafetera?,0,sintetico_revisado,train
+ex-0904,Solicité la cancelación de el soporte y todavía necesito un reembolso..,1,sintetico_revisado,train
+ex-0402,Sobre el cobro: rayado y sin novedades.,1,sintetico_revisado,train
+ex-0008,"No es una queja, pero el laptop llegó con fallas y nadie se comunica.",1,sintetico_revisado,train
+ex-0701,me comentan que la garantía rayado.,1,sintetico_revisado,train
+ex-1004,Sobre la garantía: dañado y sin novedades.,1,sintetico_revisado,train
+ex-0529,el taladro no funciona desde ayer.,1,sintetico_revisado,train
+ex-0575,Solo pregunto: ¿por qué la devolución sigue tardío?,1,sintetico_revisado,train
+ex-0730,El servicio rayado y pido una aclaración.,1,sintetico_revisado,train
+ex-0237,"Tengo un problema con la devolución, ¿cómo contactar soporte?",0,sintetico_revisado,train
+ex-0548,Nadie contesta mi la entrega después de más de una semana.,1,sintetico_revisado,train
+ex-0841,Solo pregunto: ¿por qué la factura sigue mojado?,1,sintetico_revisado,train
+ex-0820,"Me molesta no saber tiempo de respuesta, ¿podrían decirme?",0,sintetico_revisado,train
+ex-0452,¿Podrían decirme por qué el cobro no funciona?,1,sintetico_revisado,train
+ex-0444,"mi pedido con fallas, ¿qué sigue?",1,sintetico_revisado,train
+ex-0849,¿No deberían resolver mi pedido sin costo?,1,sintetico_revisado,train
+ex-0527,Me comentan que mi solicitud con fallas.,1,sintetico_revisado,train
+ex-0260,el microondas con fallas desde hace una semana.,0,sintetico_revisado,train
+ex-0278,"el soporte tardío, ¿qué sigue?",0,sintetico_revisado,train
+ex-0857,¿No deberían resolver el envío sin costo?,1,sintetico_revisado,train
+ex-0235,¿Podrían decirme por qué mi solicitud no funciona?,1,sintetico_revisado,train
+ex-0265,El servicio con fallas y es inaceptable.,1,sintetico_revisado,train
+ex-0382,Quiero saber el costo si hay un cobro extra..,0,sintetico_revisado,train
+ex-0018,Me cobraron un monto incorrecto y requiero respuesta.,1,sintetico_revisado,train
+ex-0522,la silla tiene piezas sueltas y voy a reportarlo.,1,sintetico_revisado,train
+ex-0076,"No quiero quejarme, aunque mi solicitud con fallas desde ayer.",1,sintetico_revisado,train
+ex-0811,Seguimos sin la entrega y quisiera una respuesta.,1,sintetico_revisado,train
+ex-0207,¿Hay que cancelar un pedido aunque el cobro esté con fallas?,0,sintetico_revisado,train
+ex-0453,"Me preocupa mi cuenta, ¿cuál es el detalle de características?",0,sintetico_revisado,train
+ex-0352,"mi solicitud dañado, ¿qué sigue?",1,sintetico_revisado,train
+ex-0396,la impresora tardío desde hace una semana.,0,sintetico_revisado,train
+ex-0494,consulta urgente: la factura rayado y necesito una solución.,1,sintetico_revisado,train
+ex-0950,Hay un cargo duplicado en mi factura y esperaba otra cosa.,1,sintetico_revisado,train
+ex-0802,"mi solicitud tardío, ¿qué sigue?",1,sintetico_revisado,train
+ex-0930,Recibí la factura de forma incorrecta y nesesito un reembolso.,1,sintetico_revisado,train
+ex-0613,"Si mi pedido está mojado, ¿cómo cancelar un pedido?",0,sintetico_revisado,train
+ex-0226,Sobre la factura: tardío y sin novedades.,1,sintetico_revisado,train
+ex-0233,Sobre la garantía: abierto y sin novedades..,1,sintetico_revisado,train
+ex-0294,¿Cuánto tiempo más tengo que esperar el envío?,1,sintetico_revisado,train
+ex-0679,Seguimos sin el cobro y quisiera una respuesta.,1,sintetico_revisado,train
+ex-0148,"no es una queja, pero el router llegó tardío y nadie resuelve nada.",1,sintetico_revisado,train
+ex-0958,Me comentan que la devolución mojado.,1,sintetico_revisado,train
+ex-0424,mi pedido tardío y no tengo respuesta.,0,sintetico_revisado,train
+ex-0212,¿Qué hago si la entrega no conecta?,0,sintetico_revisado,train
+ex-0473,"No es una queja, pero el tablet llego rayado y nadie se comunica.",1,sintetico_revisado,train
+ex-0145,¿No deberían resolver el envío sin costo?,1,sintetico_revisado,train
+ex-0953,Sobre la garantía: rayado y sin novedades.,1,sintetico_revisado,train
+ex-0694,¿Podrían decirme por qué el envío no conecta?,1,sintetico_revisado,train
+ex-0607,Me comentan que el soporte con fallas.,1,sintetico_revisado,train
+ex-0050,mi pedido rayado y no tengo respuesta.,1,sintetico_revisado,train
+ex-0643,Necesito informacion sobre características.,0,sintetico_revisado,train
+ex-0404,"Siento confusión con la garantía, ¿cuál es el compatibilidad?",0,sintetico_revisado,train
+ex-0997,"mi cuenta incompleto, ¿qué sigue?",0,sintetico_revisado,train
+ex-0014,Qué tiempo de respuesta tiene cámara?,0,sintetico_revisado,train
+ex-0056,Solo pregunto: ¿por qué mi solicitud sigue mojado?,1,sintetico_revisado,train
+ex-0135,"Si la factura está dañado, ¿cómo obtener el manual?",0,sintetico_revisado,train
+ex-0142,el soporte rayado y no tengo respuesta.,0,sintetico_revisado,train
+ex-0578,Quiero saber el costo si hay un monto incorrecto.,0,sintetico_revisado,train
+ex-0994,"Siento confusión con la garantía, ¿cuál es el política de devolución?",0,sintetico_revisado,train
+ex-0583,el monitor dañado desde después de la actualización.,0,sintetico_revisado,train
+ex-0309,me cobraron un cobro extra y voy a reportarlo.,1,sintetico_revisado,train
+ex-0784,el microondas dañado desde después de la actualización.,1,sintetico_revisado,train
+ex-0589,¿No deberían resolver el cobro sin costo?,1,sintetico_revisado,train
+ex-0367,¿Podrían decirme por qué la devolución no carga?,1,sintetico_revisado,train
+ex-0580,"No quiero quejarme, aunque mi solicitud abierto desde después de la actualización.",1,sintetico_revisado,train
+ex-0516,"la devolución tardío, ¿qué sigue?",0,sintetico_revisado,train
+ex-0648,"En caso de mi cuenta dañado, ¿cuál es el detalle de política de devolución?",0,sintetico_revisado,train
+ex-0652,Quisiera saber horario sobre el cobro.,0,sintetico_revisado,train
+ex-0748,¿puedo contactar soporte en la tienda?,0,sintetico_revisado,train
+ex-0093,Qué cobertura tiene suscripción?,0,sintetico_revisado,train
+ex-0284,Solo pregunto: ¿por qué el soporte sigue con fallas?,1,sintetico_revisado,train
+ex-0427,La garantía no carga y necesito un reembolso.,1,sintetico_revisado,train
+ex-0973,"Me parece pésima que mi solicitud, necesito un reembolso.",1,sintetico_revisado,train
+ex-0620,nadie responde mi el soporte después de desde ayer.,1,sintetico_revisado,train
+ex-0753,"el envío rayado, ¿qué sigue?",0,sintetico_revisado,train
+ex-0146,"la devolución incompleto, ¿qué sigue?",0,sintetico_revisado,train
+ex-0646,¿Hay que seguir mi envío aunque la devolución esté tardío?,0,sintetico_revisado,train
+ex-0094,Quiero conocer cobertura para obtener el manual.,0,sintetico_revisado,train
+ex-0482,la garantía con fallas y no tengo respuesta.,0,sintetico_revisado,train
+ex-1012,¿No deberían resolver el envío sin costo?,1,sintetico_revisado,train
+ex-0919,Me comentan que la entrega con fallas.,0,sintetico_revisado,train
+ex-0985,la cafetera con fallas desde ayer..,1,sintetico_revisado,train
+ex-0786,Consulta urgente: el envío tardío y necesito una solución..,1,sintetico_revisado,train
+ex-0795,la cámara rayado desde después de la actualización.,0,sintetico_revisado,train
+ex-0653,Me comentan que la devolución abierto.,1,sintetico_revisado,train
+ex-0379,El servicio dañado y es inaceptable.,1,sintetico_revisado,train
+ex-0747,el router con fallas desde hace una semana.,1,sintetico_revisado,train
+ex-0668,¿Puedo solicitar una devolución en el catálogo?,0,sintetico_revisado,train
+ex-0699,la atención fue lenta y es inaceptable.,1,sintetico_revisado,train
+ex-0713,"Me parece pésima que la factura, necesito un reembolso..",1,sintetico_revisado,train
+ex-0357,"la bicicleta se rompió y tiene un defecto, necesito un reembolso..",1,sintetico_revisado,train
+ex-0882,Me gustaría entender por qué la factura con fallas..,1,sintetico_revisado,train
+ex-0012,la garantía mojado y no tengo respuesta.,0,sintetico_revisado,train
+ex-0387,¿Qué hago si el soporte no enciende?,0,sintetico_revisado,train
+ex-0110,Es insuficiente que nadie da una explicación sobre la factura.,1,sintetico_revisado,train
+ex-0180,La garantía no carga y quiero una solución.,1,sintetico_revisado,train
+ex-0418,"No es una queja, pero el monitor llegó incompleto y nadie da una explicación.",1,sintetico_revisado,train
+ex-0836,"No es una queja, pero el monitor llegó mojado y nadie da una explicación.",1,sintetico_revisado,train
+ex-0120,La atención fue decepcionante y no acepto esto..,1,sintetico_revisado,train
+ex-0003,seguimos sin la devolución y quisiera una respueta.,1,sintetico_revisado,train
+ex-0449,mi solicitud abierto y no tengo respuesta.,0,sintetico_revisado,train
+ex-0889,Me comentan que mi cuenta mojado.,1,sintetico_revisado,train
+ex-0570,Seguimos sin la entrega y quisiera una respuesta.,1,sintetico_revisado,train
+ex-0071,No entiendo tiempo de respuesta: ¿me explican?,0,sintetico_revisado,train
+ex-0038,la tablet tiene un defecto y voy a reportarlo.,1,sintetico_revisado,train
+ex-0573,Quisiera saber garantía sobre el soporte.,0,sintetico_revisado,train
+ex-0759,Sobre la entrega: tardío y sin novedades.,0,sintetico_revisado,train
+ex-0505,¿Podrían decirme por qué la factura no enciende?,1,sintetico_revisado,train
+ex-0345,"la entrega tardío, ¿qué sigue?",1,sintetico_revisado,train
+ex-0280,Recibí la devolución de forma incorrecta y necesito un reembolso.,1,sintetico_revisado,train
+ex-1005,me gustaría entender por qué el soporte rayado.,1,sintetico_revisado,train
+ex-0649,El servicio abierto y esperaba otra cosa.,1,sintetico_revisado,train
+ex-0850,la factura tardío y no tengo respuesta.,0,sintetico_revisado,train
+ex-0074,Me gustaría entender por qué el soporte mojado.,1,sintetico_revisado,train
+ex-0274,me gustaría entender por qué mi solicitud con fallas.,1,sintetico_revisado,train
+ex-0597,"tengo un problema con la devolución, ¿cómo hacer un pedido?",0,sintetico_revisado,train
+ex-0680,seguimos sin mi cuenta y quisiera una respuesta.,1,sintetico_revisado,train
+ex-0700,"No es una queja, pero el monitor llegó abierto y nadie responde.",1,sintetico_revisado,train
+ex-0986,Me gustaría conocer política de devolución antes de solicitar una devolución.,0,sintetico_revisado,train
+ex-0000,Consulta: ¿se puede activar la garantía con tarjeta?,0,sintetico_revisado,train
+ex-0697,¿Puedo hacer un pedido en la web?,0,sintetico_revisado,train
+ex-0662,mi solicitud abierto y no tengo respuesta.,0,sintetico_revisado,train
+ex-0640,la entrega mojado y no tengo respuesta.,1,sintetico_revisado,train
+ex-0837,¿Qué hago si mi cuenta no funciona?,0,sintetico_revisado,train
+ex-0299,"Siento confusión con mi cuenta, ¿cuál es el tiempo de respuesta?",0,sintetico_revisado,train
+ex-0297,Nadie responde mi el cobro después de dos días.,1,sintetico_revisado,train
+ex-0922,"Me molesta no saber características, ¿podrían decirme?",0,sintetico_revisado,train
+ex-0127,Me comentan que el cobro con fallas.,0,sintetico_revisado,train
+ex-0289,me comentan que el cobro incompleto.,0,sintetico_revisado,train
+ex-0450,¿No deberían resolver el soporte sin costo?,1,sintetico_revisado,train
+ex-0095,"En caso de el soporte incompleto, ¿cuál es el detalle de política de devolución?",0,sintetico_revisado,train
+ex-0783,Quiero saber el costo si hay un cargo duplicado.,0,sintetico_revisado,train
+ex-0326,Me comentan que la garantía tardio.,1,sintetico_revisado,train
+ex-0177,Me cobraron un monto incorrecto y esperaba otra cosa.,1,sintetico_revisado,train
+ex-0211,Me comentan que el soporte con fallas.,0,sintetico_revisado,train
+ex-0412,Sobre la devolución: tardío y sin novedades.,1,sintetico_revisado,train
+ex-0956,¿Puedo pagar en sucursales?,0,sintetico_revisado,train
+ex-0639,necesito información sobre plazo de entrega.,0,sintetico_revisado,train
+ex-0775,el envío abierto y no tengo respuesta..,1,sintetico_revisado,train
+ex-0137,la silla dañado desde hace una semana.,0,sintetico_revisado,train
+ex-0547,¿Hay que obtener el manual aunque la devolución esté con fallas?,0,sintetico_revisado,train
+ex-0392,"la entrega abierto, ¿qué sigue?",0,sintetico_revisado,train
+ex-0364,Es lenta que nadie contesta sobre la devolución.,1,sintetico_revisado,train
+ex-0455,¿Hay que cambiar mi dirección aunque mi cuenta esté rayado?,0,sintetico_revisado,train
+ex-0557,la cámara con fallas desde hace una semana.,0,sintetico_revisado,train
+ex-0440,Quiero saber el costo si hay un monto incorrecto.,0,sintetico_revisado,train
+ex-0734,Me comentan que el cobro tardío.,0,sintetico_revisado,train
+ex-0285,Me cobraron un descuento que no aplicaron y esperaba otra cosa.,1,sintetico_revisado,train
+ex-0720,Me comentan que la entrega abierto.,0,sintetico_revisado,train
+ex-0581,mi solicitud dañado y no tengo respuesta.,1,sintetico_revisado,train
+ex-0085,Solo pregunto: ¿por qué el soporte sigue incompleto?,1,sintetico_revisado,train
+ex-0995,recibí el envío de forma incorrecta y requiero respuesta.,1,sintetico_revisado,train
+ex-0920,Me gustaría entender por qué mi pedido abierto.,1,sintetico_revisado,train
+ex-0232,Quisiera saber manual sobre la entrega.,0,sintetico_revisado,train
+ex-0332,"No quiero quejarme, aunque la factura con fallas desde hace una semana.",1,sintetico_revisado,train
+ex-0873,"me molesta no saber compatibilidad, ¿podrían decirme?",0,sintetico_revisado,train
+ex-0228,Consulta urgente: el envío abierto y necesito una solución.,1,sintetico_revisado,train
+ex-0840,Recibí mi pedido de forma incorrecta y necesito un reembolso.,1,sintetico_revisado,train
+ex-0755,"Me parece incoherente que la entrega, requiero respuesta.",1,sintetico_revisado,train
+ex-0754,Tengo una duda sobre compatibilidad de pedido.,0,sintetico_revisado,train
+ex-0325,Solo pregunto: ¿por qué mi cuenta sigue mojado?,1,sintetico_revisado,train
+ex-0166,Seguimos sin mi solicitud y quisiera una respuesta.,1,sintetico_revisado,train
+ex-0064,No entiendo horario: ¿me explican?,0,sintetico_revisado,train
+ex-0758,¿Qué hago si el envío no carga?,0,sintetico_revisado,train
+ex-0185,Quiero conocer precio para cambiar mi dirección..,0,sintetico_revisado,train
+ex-0478,la factura abierto y no tengo respuesta.,1,sintetico_revisado,train
+ex-0244,Es mala que nadie resuelve nada sobre mi pedido.,1,sintetico_revisado,train
+ex-0164,¿Cuál es el detalle de horario de la silla?,0,sintetico_revisado,train
+ex-0510,¿Dónde puedo obtener el manual la entrega?,0,sintetico_revisado,train
+ex-0760,"Siento confusión con la devolución, ¿cuál es el compatibilidad?",0,sintetico_revisado,train
+ex-0022,"Me preocupa la entrega, ¿cuál es el detalle de garantía?",0,sintetico_revisado,train
+ex-0219,el cobro dañado y no tengo respuesta.,0,sintetico_revisado,train
+ex-0112,"Me preocupa mi cuenta, ¿cuál es el detalle de política de devolución?",0,sintetico_revisado,train
+ex-0704,Consulta urgente: el soporte dañado y necesito una solución.,1,sintetico_revisado,train
+ex-0168,mi pedido abierto y no tengo respuesta.,1,sintetico_revisado,train
+ex-0816,Me comentan que la devolución tardío.,1,sintetico_revisado,train
+ex-0109,la silla no funciona desde después de la actualización.,1,sintetico_revisado,train
+ex-0710,El servicio dañado y esperaba otra cosa..,1,sintetico_revisado,train
+ex-0291,sobre el soporte: con fallas y sin novedades.,0,sintetico_revisado,train
+ex-0524,¿Cuánto tiempo más tengo que esperar la factura?,1,sintetico_revisado,train
+ex-0195,"el soporte abierto, ¿qué sigue?",0,sintetico_revisado,train
+ex-0290,¿Es normal que el soporte esté abierto?,1,sintetico_revisado,train
+ex-0417,"No es una queja, pero el microondas llegó tardío y nadie resuelve nada..",1,sintetico_revisado,train
+ex-0861,Llevo desde el lunes esperando mi pedido y nadie se comunica.,1,sintetico_revisado,train
+ex-0287,Solo pregunto: ¿por qué el cobro sigue mojado?,1,sintetico_revisado,train
+ex-0322,Quiero saber el costo si hay un descuento que no aplicaron.,0,sintetico_revisado,train
+ex-0924,mi cuenta dañado y no tengo respuesta.,1,sintetico_revisado,train
+ex-0300,el teléfono tardío desde ayer.,1,sintetico_revisado,train
+ex-0804,Me comentan que el envío incompleto.,1,sintetico_revisado,train
+ex-0216,¿Hay que cancelar un pedido aunque la factura esté abierto?,0,sintetico_revisado,train
+ex-0301,Seguimos sin mi solicitud y quisiera una respuesta.,1,sintetico_revisado,train
+ex-0004,Sobre la factura: dañado y sin novedades.,1,sintetico_revisado,train
+ex-0399,¿Hay que cancelar un pedido aunque mi pedido esté rayado?,0,sintetico_revisado,train
+ex-0275,¿cómo puedo cambiar mi dirección mi la garantía?,0,sintetico_revisado,train
+ex-0406,¿Qué hago si la garantía no conecta?,0,sintetico_revisado,train
+ex-0998,¿Puedo contactar soporte en la tienda?,0,sintetico_revisado,train
+ex-1010,"Buen día, ¿podrían indicarme la información sobre cobertura?",0,sintetico_revisado,train
+ex-0789,"mi pedido con fallas, ¿qué sigue?",0,sintetico_revisado,train
+ex-0796,Me cobraron una comisión no anunciada y esperaba otra cosa.,1,sintetico_revisado,train
+ex-0508,¿Cuál es el detalle de cobertura de el router?,0,sintetico_revisado,train
+ex-0485,"Me molesta no saber garantía, ¿podrían decirme?",0,sintetico_revisado,train
+ex-0879,Sobre el soporte: rayado y sin novedades.,1,sintetico_revisado,train
+ex-0885,¿Qué hago si la entrega no carga?,0,sintetico_revisado,train
+ex-0311,el microondas no funciona desde desde el primer día.,1,sintetico_revisado,train
+ex-0897,"Me molesta no saber plazo de entrega, ¿podrían decirme?",0,sintetico_revisado,train
+ex-0845,Recibí el cobro de forma incorrecta y necesito un reembolso.,1,sintetico_revisado,train
+ex-0369,Quiero saber si el cobro incluye cobertura.,0,sintetico_revisado,train
+ex-0338,Necesito información sobre características.,0,sintetico_revisado,train
+ex-0788,"el cobro dañado, ¿qué sigue?",0,sintetico_revisado,train
+ex-0681,la factura dañado y no tengo respuesta.,0,sintetico_revisado,train
+ex-0469,"mi solicitud incompleto, ¿qué sigue?",1,sintetico_revisado,train
+ex-0707,Consulta urgente: la factura abierto y necesito una solución..,1,sintetico_revisado,train
+ex-0383,¿Hay que activar la garantía aunque la garantía esté incompleto?,0,sintetico_revisado,train
+ex-0386,Sobre el soporte: mojado y sin novedades.,0,sintetico_revisado,train
+ex-0912,Me cobraron un cobro extra y necesito un reembolso.,1,sintetico_revisado,train
+ex-0585,Sobre la factura: mojado y sin novedades..,0,sintetico_revisado,train
+ex-0864,Me cobraron un cobro extra y es inaceptable.,1,sintetico_revisado,train
+ex-0462,el paquete llegó rayado y quiero una solución.,1,sintetico_revisado,train
+ex-0238,¿Qué hago si la garantía no conecta?,0,sintetico_revisado,train
+ex-0328,Consulta: ¿se puede hacer un pedido con transferencia?,0,sintetico_revisado,train
+ex-0484,"la garantía tardío, ¿qué sigue?",1,sintetico_revisado,train
+ex-0042,¿No deberían resolver la entrega sin costo?,1,sintetico_revisado,train
+ex-0251,Me gustaría entender por qué mi solicitud abierto.,1,sintetico_revisado,train
+ex-0929,sobre mi pedido: mojado y sin novedades.,1,sintetico_revisado,train
+ex-0944,"Si el cobro está con fallas, ¿cómo hacer un pedido?",0,sintetico_revisado,train
+ex-0246,¿Hay que cambiar mi dirección aunque el cobro esté con fallas?,0,sintetico_revisado,train
+ex-0464,Me comentan que la devolución tardío.,0,sintetico_revisado,train
+ex-0851,¿Es normal que la devolución esté incompleto?,1,sintetico_revisado,train
+ex-0594,me comentan que mi solicitud rayado.,1,sintetico_revisado,train
+ex-0608,"No es una queja, pero el paquete llegó tardío y nadie responde.",1,sintetico_revisado,train
+ex-0523,Seguimos sin la factura y quisiera una respuesta.,1,sintetico_revisado,train
+ex-0740,Quisiera saber características sobre mi solicitud.,0,sintetico_revisado,train
+ex-0870,¿A qué hora puedo pagar en el catálogo?,0,sintetico_revisado,train
+ex-0040,Quiero saber si mi cuenta incluye cobertura..,0,sintetico_revisado,train
+ex-0144,el cobro tardío y no tengo respuesta.,0,sintetico_revisado,train
+ex-0248,Me comentan que mi cuenta mojado.,1,sintetico_revisado,train
+ex-0531,Me cobraron un descuento que no aplicaron y voy a reportarlo.,1,sintetico_revisado,train
+ex-0039,"mi cuenta abierto, ¿qué sigue?",0,sintetico_revisado,train
+ex-0797,¿Hay que contactar soporte aunque mi pedido esté abierto?,0,sintetico_revisado,train
+ex-0893,Me comentan que mi cuenta tardío.,1,sintetico_revisado,train
+ex-0268,"Siento confusión con el cobro, ¿cuál es el disponibilidad?",0,sintetico_revisado,train
+ex-0967,"la entrega con fallas, ¿qué sigue?",0,sintetico_revisado,train
+ex-0627,¿Hay que obtener el manual aunque la devolución esté dañado?,0,sintetico_revisado,train
+ex-0708,"Me preocupa mi cuenta, ¿cuál es el detalle de precio?",0,sintetico_revisado,train
+ex-0981,Me comentan que la garantía rayado.,0,sintetico_revisado,train
+ex-0425,Me comentan que la entrega incompleto.,0,sintetico_revisado,train
+ex-0813,¿Qué hago si el cobro no carga?,0,sintetico_revisado,val
+ex-0313,"la entrega dañado, ¿qué sigue?",0,sintetico_revisado,val
+ex-0750,la atención fue pésima y esperaba otra cosa.,1,sintetico_revisado,val
+ex-0962,la cafetera tardio desde ayer.,0,sintetico_revisado,val
+ex-0472,"el soporte con fallas, ¿qué sigue?",0,sintetico_revisado,val
+ex-1006,¿Hay que contactar soporte aunque la factura esté abierto?,0,sintetico_revisado,val
+ex-0562,el monitor abierto desde hace una semana.,0,sintetico_revisado,val
+ex-0086,recibí la entrega de forma incorrecta y esperaba otra cosa.,1,sintetico_revisado,val
+ex-0714,Seguimos sin la factura y quisiera una respuesta.,1,sintetico_revisado,val
+ex-0374,Me comentan que el cobro rayado.,1,sintetico_revisado,val
+ex-0188,¿cuál es el detalle de plazo de entrega de el router?,0,sintetico_revisado,val
+ex-0852,Solicité la cancelación de el soporte y todavía pido una aclaración.,1,sintetico_revisado,val
+ex-0831,la bicicleta mojado desde después de la actualización.,1,sintetico_revisado,val
+ex-0856,Solo pregunto: ¿por qué la factura sigue dañado?,1,sintetico_revisado,val
+ex-0881,la entrega con fallas y no tengo respuesta.,0,sintetico_revisado,val
+ex-0426,necesito información sobre compatibilidad.,0,sintetico_revisado,val
+ex-0978,Es lenta que nadie responde sobre mi cuenta.,1,sintetico_revisado,val
+ex-0430,¿No deberían resolver la entrega sin costo?,1,sintetico_revisado,val
+ex-0504,"Tengo un problema con la garantía, ¿cómo contactar soporte?",0,sintetico_revisado,val
+ex-0048,"mi pedido tardío, ¿qué sigue?",1,sintetico_revisado,val
+ex-0605,Consulta urgente: el soporte dañado y necesito una solución.,1,sintetico_revisado,val
+ex-0470,¿Podrían decirme por qué la entrega no carga?,1,sintetico_revisado,val
+ex-0183,la cafetera no enciende desde después de la actualización.,1,sintetico_revisado,val
+ex-0186,la bicicleta abierto desde hace una semana.,0,sintetico_revisado,val
+ex-0722,el teléfono tardío desde después de la actualización..,0,sintetico_revisado,val
+ex-0539,el paquete llegó mojado y no acepto esto.,1,sintetico_revisado,val
+ex-0790,Quiero saber el costo si hay un cobro extra..,0,sintetico_revisado,val
+ex-0801,¿Qué hago si la garantía no carga?,0,sintetico_revisado,val
+ex-0500,Seguimos sin la entrega y quisiera una respuesta.,1,sintetico_revisado,val
+ex-0663,"No es una queja, pero el bicicleta llegó tardío y nadie resuelve nada.",1,sintetico_revisado,val
+ex-0626,"No es una queja, pero el cafetera llegó mojado y nadie responde.",1,sintetico_revisado,val
+ex-0400,Sobre la devolución: rayado y sin novedades.,0,sintetico_revisado,val
+ex-0421,"siento confusión con la entrega, ¿cuál es el tiempo de respuesta?",0,sintetico_revisado,val
+ex-0416,Sobre la garantía: incompleto y sin novedades.,1,sintetico_revisado,val
+ex-0905,Seguimos sin el soporte y quisiera una respueta.,1,sintetico_revisado,val
+ex-0903,Sobre la devolución: tardío y sin novedades.,0,sintetico_revisado,val
+ex-0277,"tengo un problema con mi cuenta, ¿cómo cancelar un pedido?",0,sintetico_revisado,val
+ex-0969,Quiero conocer política de devolución para solicitar una devolución.,0,sintetico_revisado,val
+ex-0068,Recibí el cobro de forma incorrecta y es inaceptable.,1,sintetico_revisado,val
+ex-0623,La garantía no conecta y esperaba otra cosa.,1,sintetico_revisado,val
+ex-0843,no entiendo compatibilidad: ¿me explican?,0,sintetico_revisado,val
+ex-0812,Quiero saber el costo si hay un cobro extra.,0,sintetico_revisado,val
+ex-0615,Solo pregunto: ¿por qué mi cuenta sigue abierto?,1,sintetico_revisado,val
+ex-0569,Me comentan que el soporte incompleto.,1,sintetico_revisado,val
+ex-0247,"la devolución abierto, ¿qué sigue?",0,sintetico_revisado,val
+ex-0181,la devolución incompleto y no tengo respuesta.,0,sintetico_revisado,val
+ex-0041,Sobre mi pedido: incompleto y sin novedades.,0,sintetico_revisado,val
+ex-0033,"el cobro mojado, ¿qué sigue?",1,sintetico_revisado,val
+ex-0721,"Me preocupa el soporte, ¿cuál es el detalle de compatibilidad?",0,sintetico_revisado,val
+ex-0901,el telefono no funciona desde desde el primer día.,1,sintetico_revisado,val
+ex-0756,Me comentan que el cobro con fallas.,0,sintetico_revisado,val
+ex-0336,¿Cuál es el detalle de tiempo de respuesta de el router?,0,sintetico_revisado,val
+ex-0768,la devolución dañado y no tengo respuesta.,0,sintetico_revisado,val
+ex-0808,el pedido tardío desde desde el primer día.,1,sintetico_revisado,val
+ex-0349,Me comentan que la devolución mojado..,1,sintetico_revisado,val
+ex-0961,la impresora tardío desde desde el primer día.,0,sintetico_revisado,val
+ex-0157,Sobre mi pedido: dañado y sin novedades.,0,sintetico_revisado,val
+ex-0761,Quiero saber el costo si hay una comisión no anunciada.,0,sintetico_revisado,val
+ex-0746,Me gustaría entender por qué el soporte abierto.,1,sintetico_revisado,val
+ex-0794,Sobre la devolución: con fallas y sin novedades.,0,sintetico_revisado,val
+ex-0124,"el cobro abierto, ¿qué sigue?",0,sintetico_revisado,val
+ex-0671,"Si mi solicitud está abierto, ¿cómo contactar soporte?",0,sintetico_revisado,val
+ex-1000,"En caso de el envío incompleto, ¿cuál es el detalle de garantía?",0,sintetico_revisado,val
+ex-0964,¿Hay que cancelar un pedido aunque mi pedido esté abierto?,0,sintetico_revisado,val
+ex-0210,la tablet incompleto desde después de la actualización.,1,sintetico_revisado,val
+ex-0591,Tengo una duda sobre tiempo de respuesta de tablet.,0,sintetico_revisado,val
+ex-0918,"Buen día, ¿podrían indicarme la información sobre garantía?",0,sintetico_revisado,val
+ex-0947,"la garantía incompleto, ¿qué sigue?",1,sintetico_revisado,val
+ex-0490,Sobre mi pedido: abierto y sin novedades.,0,sintetico_revisado,val
+ex-0025,¿Qué hago si mi solicitud no conecta?,0,sintetico_revisado,val
+ex-0006,me comentan que la devolución incompleto.,0,sintetico_revisado,val
+ex-0497,llevo dos días esperando el envío y nadie da una explicación.,1,sintetico_revisado,val
+ex-0306,Sobre el soporte: mojado y sin novedades.,0,sintetico_revisado,val
+ex-0083,"la entrega con fallas, ¿qué sigue?",0,sintetico_revisado,val
+ex-0946,No entiendo disponibilidad: ¿me explican?,0,sintetico_revisado,val
+ex-0221,"No quiero quejarme, aunque la garantía incompleto desde desde el primer día.",1,sintetico_revisado,val
+ex-0254,la entrega mojado y no tengo respuesta.,1,sintetico_revisado,val
+ex-0126,Tengo una duda sobre precio de router.,0,sintetico_revisado,val
+ex-0442,Me cobraron una comisión no anunciada y voy a reportarlo.,1,sintetico_revisado,val
+ex-0220,"Si la entrega está rayado, ¿cómo hacer un pedido?",0,sintetico_revisado,val
+ex-0401,¿Hay que solicitar una devolución aunque el cobro esté con fallas?,0,sintetico_revisado,val
+ex-0255,"me molesta no saber manual, ¿podrían decirme?",0,sintetico_revisado,val
+ex-0521,Me comentan que la devolución con fallas.,1,sintetico_revisado,val
+ex-0010,El servicio con fallas y quiero una solución.,1,sintetico_revisado,val
+ex-0477,Seguimos sin mi cuenta y quisiera una respuesta.,1,sintetico_revisado,val
+ex-0397,Sobre mi solicitud: tardío y sin novedades.,0,sintetico_revisado,val
+ex-0459,"el envío mojado, ¿qué sigue?",1,sintetico_revisado,val
+ex-0793,"me molesta no saber compatibilidad, ¿podrían decirme?",0,sintetico_revisado,val
+ex-0599,Me gustaría conocer horario antes de cancelar un pedido.,0,sintetico_revisado,val
+ex-0678,Necesito información sobre garantía.,0,sintetico_revisado,val
+ex-0252,"Buen día, ¿podrían indicarme la información sobre manual?",0,sintetico_revisado,val
+ex-0415,¿Qué hago si el envío no carga?,0,sintetico_revisado,val
+ex-0900,¿Cuál es el detalle de costo de envío de la laptop?,0,sintetico_revisado,val
+ex-0890,Consulta urgente: mi pedido tardío y necesito una solución.,1,sintetico_revisado,val
+ex-0810,Sobre el envío: dañado y sin novedades.,1,sintetico_revisado,val
+ex-0823,Quiero saber el costo si hay un monto incorrecto.,0,sintetico_revisado,val
+ex-0169,mi solicitud incompleto y no tengo respuesta.,1,sintetico_revisado,val
+ex-0886,¿Qué hago si el envío no conecta?,0,sintetico_revisado,val
+ex-0738,"el cobro abierto, ¿qué sigue?",1,sintetico_revisado,val
+ex-0403,"el soporte abierto, ¿qué sigue?",0,sintetico_revisado,val
+ex-0466,"el soporte mojado, ¿qué sigue?",0,sintetico_revisado,val
+ex-0036,Sobre el cobro: abierto y sin novedades.,1,sintetico_revisado,val
+ex-0389,"Me parece lenta que la factura, quiero una solución.",1,sintetico_revisado,val
+ex-0342,"En caso de el cobro rayado, ¿cuál es el detalle de política de devolución?",0,sintetico_revisado,val
+ex-0388,¿Puedo cambiar mi dirección en la app?,0,sintetico_revisado,val
+ex-0298,Me comentan que mi solicitud rayado.,1,sintetico_revisado,val
+ex-0887,Me comentan que la devolución dañado..,1,sintetico_revisado,val
+ex-0503,el pedido mojado desde ayer.,1,sintetico_revisado,val
+ex-0059,¿Cuánto tiempo más tengo que esperar la garantía?,1,sintetico_revisado,val
+ex-0975,¿podrían decirme por qué la devolución no carga?,1,sintetico_revisado,val
+ex-0927,¿hay que seguir mi envío aunque la entrega esté con fallas?,0,sintetico_revisado,val
+ex-0509,mi solicitud tardio y no tengo respueta..,0,sintetico_revisado,val
+ex-0572,"me preocupa mi solicitud, ¿cuál es el detalle de horario?",0,sintetico_revisado,val
+ex-0318,¿no deberían resolver mi pedido sin costo?,1,sintetico_revisado,val
+ex-0273,Qué cobertura tiene taladro?,0,sintetico_revisado,val
+ex-0829,Sobre el cobro: rayado y sin novedades.,0,sintetico_revisado,val
+ex-0080,Me comentan que la entrega mojado.,1,sintetico_revisado,val
+ex-0316,el cobro dañado y no tengo respuesta.,0,sintetico_revisado,val
+ex-0431,"el envío abierto, ¿qué sigue?",1,sintetico_revisado,val
+ex-0092,la entrega incompleto y no tengo respuesta.,1,sintetico_revisado,val
+ex-0770,la devolución mojado y no tengo respuesta.,1,sintetico_revisado,val
+ex-0163,Sobre mi cuenta: mojado y sin novedades.,0,sintetico_revisado,val
+ex-0971,"no quiero quejarme, aunque mi solicitud tardío desde hace una semana..",1,sintetico_revisado,val
+ex-0467,Me comentan que mi solicitud mojado.,0,sintetico_revisado,val
+ex-0564,me comentan que mi cuenta dañado.,0,sintetico_revisado,val
+ex-0528,"Si mi pedido está con fallas, ¿cómo pagar?",0,sintetico_revisado,val
+ex-0596,Solo pregunto: ¿por qué el soporte sigue tardío?,1,sintetico_revisado,val
+ex-0263,qué características tiene impresora?,0,sintetico_revisado,val
+ex-0121,"Tengo un problema con el envío, ¿cómo obtener el manual?",0,sintetico_revisado,val
+ex-0256,¿no deberían resolver mi cuenta sin costo?,1,sintetico_revisado,val
+ex-0115,solo pregunto: ¿por qué mi cuenta sigue rayado?,1,sintetico_revisado,val
+ex-0062,¿Puedo contactar soporte en el catálogo?,0,sintetico_revisado,val
+ex-0463,"el soporte tardío, ¿qué sigue?",1,sintetico_revisado,val
+ex-0011,la entrega incompleto y no tengo respuesta..,1,sintetico_revisado,val
+ex-0438,Me gustaría entender por qué mi cuenta tardio..,1,sintetico_revisado,val
+ex-0942,Seguimos sin mi cuenta y quisiera una respuesta.,1,sintetico_revisado,val
+ex-1015,Me comentan que la entrega con fallas.,1,sintetico_revisado,val
+ex-0926,el cobro mojado y no tengo respuesta.,0,sintetico_revisado,val
+ex-0698,El servicio rayado y quiero una solución..,1,sintetico_revisado,val
+ex-0175,Consulta urgente: el envío abierto y necesito una solución.,1,sintetico_revisado,val
+ex-1001,Me comentan que el cobro rayado.,1,sintetico_revisado,val
+ex-0765,¿Qué hago si el envío no carga?,0,sintetico_revisado,val
+ex-1007,Quisiera saber disponibilidad sobre la entrega.,0,sintetico_revisado,val
+ex-0082,¿Cuál es el detalle de plazo de entrega de la cafetera?,0,sintetico_revisado,val
+ex-0447,Consulta: ¿se puede hacer un pedido con efectivo?,0,sintetico_revisado,val
+ex-0952,El servicio abierto y voy a reportarlo.,1,sintetico_revisado,val
+ex-0824,Me gustaría entender por qué mi solicitud mojado.,1,sintetico_revisado,val
+ex-0821,"En caso de la factura mojado, ¿cuál es el detalle de plazo de entrega?",0,sintetico_revisado,val
+ex-0286,"En caso de la devolución dañado, ¿cuál es el detalle de características?",0,sintetico_revisado,val
+ex-0943,¿Es normal que mi solicitud esté incompleto?,1,sintetico_revisado,val
+ex-0143,"la cámara se rompió y tiene rayas, quiero una solución..",1,sintetico_revisado,val
+ex-0161,Necesito información sobre política de devolución.,0,sintetico_revisado,val
+ex-0441,Sobre la garantía: tardio y sin novedades.,0,sintetico_revisado,val
+ex-0061,¿Dónde puedo pagar la factura?,0,sintetico_revisado,val
+ex-0586,No entiendo disponibilidad: ¿me explican?,0,sintetico_revisado,val
+ex-0726,la suscripción con fallas desde hace una semana.,0,sintetico_revisado,val
+ex-0197,"Me preocupa la devolución, ¿cuál es el detalle de características?",0,sintetico_revisado,val
+ex-0559,el router no carga desde después de la actualización.,1,sintetico_revisado,val
+ex-1016,Sobre mi solicitud: mojado y sin novedades.,1,sintetico_revisado,val
+ex-0077,la devolución incompleto y no tengo respuesta.,1,sintetico_revisado,val
+ex-0205,la entrega tardio y no tengo respuesta..,0,sintetico_revisado,val
+ex-0729,"mi cuenta incompleto, ¿qué sigue?",0,sintetico_revisado,val
+ex-0162,"No es una queja, pero el suscripción llegó tardío y nadie se comunica.",1,sintetico_revisado,val
+ex-0335,la factura rayado y no tengo respueta.,0,sintetico_revisado,val
+ex-0236,me comentan que mi solicitud con fallas.,1,sintetico_revisado,val
+ex-0669,¿Hay que obtener el manual aunque el cobro esté con fallas?,0,sintetico_revisado,val
+ex-0809,el servicio con fallas y no acepto esto.,1,sintetico_revisado,val
+ex-0078,"En caso de la factura rayado, ¿cuál es el detalle de garantía?",0,sintetico_revisado,val
+ex-0538,¿Es normal que mi cuenta esté abierto?,1,sintetico_revisado,val
+ex-0576,la impresora rayado desde ayer.,1,sintetico_revisado,val
+ex-0833,¿Dónde puedo hacer un pedido la factura?,0,sintetico_revisado,val
+ex-0601,El servicio mojado y quiero una solución.,1,sintetico_revisado,val
+ex-0160,Sobre mi solicitud: abierto y sin novedades..,1,sintetico_revisado,val
+ex-0410,Consulta urgente: mi solicitud abierto y necesito una solución..,1,sintetico_revisado,val
+ex-0611,Quiero saber el costo si hay un monto incorrecto.,0,sintetico_revisado,val
+ex-0690,Sobre el envío: incompleto y sin novedades.,1,sintetico_revisado,val
+ex-0243,me cobraron un monto incorrecto y es inaceptable.,1,sintetico_revisado,val
+ex-0106,el paquete dañado desde ayer.,0,sintetico_revisado,val
+ex-0058,"No es una queja, pero el suscripción llegó rayado y nadie resuelve nada.",1,sintetico_revisado,val
+ex-0757,Quisiera saber política de devolución sobre la garantía.,0,sintetico_revisado,val
+ex-0191,¿Cuánto tiempo más tengo que esperar el cobro?,1,sintetico_revisado,val
+ex-0270,"Me molesta no saber tiempo de respuesta, ¿podrían decirme?",0,sintetico_revisado,val
+ex-0451,"el soporte con fallas, ¿qué sigue?",1,sintetico_revisado,val
+ex-0774,"la garantía dañado, ¿qué sigue?",1,sintetico_revisado,val
+ex-0891,Nadie contesta mi el cobro después de desde el lunes.,1,sintetico_revisado,val
+ex-0321,Sobre mi solicitud: con fallas y sin novedades.,0,sintetico_revisado,val
+ex-0554,¿No deberían resolver el envío sin costo?,1,sintetico_revisado,val
+ex-0262,Quiero saber el costo si hay un cargo duplicado.,0,sintetico_revisado,val
+ex-0996,Me gustaría entender por qué mi solicitud con fallas.,1,sintetico_revisado,val
+ex-0805,la garantía mojado y no tengo respuesta.,1,sintetico_revisado,val
+ex-0563,La garantía no enciende y es inaceptable.,1,sintetico_revisado,val
+ex-0604,¿Cuánto tiempo más tengo que esperar la entrega?,1,sintetico_revisado,val
+ex-0101,"me preocupa el envío, ¿cuál es el detalle de características?",0,sintetico_revisado,val
+ex-0965,Solo pregunto: ¿por qué el cobro sigue abierto?,1,sintetico_revisado,val
+ex-0096,¿Cuánto cuesta pedido?,0,sintetico_revisado,val
+ex-0428,Sobre la devolución: rayado y sin novedades.,1,sintetico_revisado,val
+ex-0187,Quisiera saber características sobre la factura.,0,sintetico_revisado,val
+ex-0296,¿Hay que seguir mi envío aunque mi cuenta esté incompleto?,0,sintetico_revisado,val
+ex-0156,el teléfono dañado desde desde el primer día.,1,sintetico_revisado,val
+ex-0122,mi solicitud con fallas y no tengo respuesta.,1,sintetico_revisado,val
+ex-0606,la devolución tardío y no tengo respuesta.,0,sintetico_revisado,val
+ex-0777,Solicité la cancelación de mi solicitud y todavía requiero respuesta.,1,sintetico_revisado,val
+ex-0436,Es decepcionante que nadie resuelve nada sobre la entrega.,1,sintetico_revisado,val
+ex-0696,Es incoherente que nadie resuelve nada sobre la factura.,1,sintetico_revisado,val
+ex-0049,Seguimos sin la devolución y quisiera una respuesta.,1,sintetico_revisado,val
+ex-0787,"En caso de el soporte mojado, ¿cuál es el detalle de precio?",0,sintetico_revisado,val
+ex-0514,la garantía dañado y no tengo respuesta.,1,sintetico_revisado,val
+ex-0344,¿cuál es el detalle de horario de el taladro?,0,sintetico_revisado,val
+ex-0931,"Me preocupa la factura, ¿cuál es el detalle de costo de envío?",0,sintetico_revisado,val
+ex-0806,Me comentan que el envío dañado.,1,sintetico_revisado,val
+ex-0009,Me comentan que el envío con fallas.,1,sintetico_revisado,val
+ex-0214,Me comentan que mi cuenta tardío.,0,sintetico_revisado,val
+ex-0281,el paquete tiene un ruido raro y es inaceptable.,1,sintetico_revisado,val
+ex-0983,la factura rayado y no tengo respuesta.,0,sintetico_revisado,val
+ex-0363,Sobre mi pedido: mojado y sin novedades..,1,sintetico_revisado,val
+ex-0878,el pedido rayado desde ayer.,0,sintetico_revisado,val
+ex-0341,Me gustaría entender por qué el cobro rayado.,1,sintetico_revisado,val
+ex-0532,"En caso de la devolución rayado, ¿cuál es el detalle de disponibilidad?",0,sintetico_revisado,val
+ex-0866,el microondas no enciende desde hace una semana.,1,sintetico_revisado,val
+ex-0107,¿A qué hora puedo contactar soporte en la tienda?,0,sintetico_revisado,val
+ex-0488,mi cuenta mojado y no tengo respuesta.,1,sintetico_revisado,val
+ex-0633,la garantía incompleto y no tengo respuesta.,1,sintetico_revisado,val
+ex-0481,Es lenta que nadie resuelve nada sobre la devolución.,1,sintetico_revisado,val
+ex-0689,"el taladro se rompió y tiene un error, quiero una solución.",1,sintetico_revisado,val
+ex-0517,¿Qué hago si la garantía no carga?,0,sintetico_revisado,val
+ex-0037,Seguimos sin mi pedido y quisiera una respuesta..,1,sintetico_revisado,val
+ex-0634,Me comentan que el soporte abierto.,1,sintetico_revisado,val
+ex-0435,Consulta urgente: la factura dañado y necesito una solución.,1,sintetico_revisado,val
+ex-0141,mi solicitud con fallas y no tengo respuesta.,1,sintetico_revisado,val
+ex-0631,¿Cuánto tiempo más tengo que esperar el cobroo?,1,sintetico_revisado,val
+ex-0113,¿Cuánto cuesta taladro?,0,sintetico_revisado,val
+ex-0718,"Buen día, ¿podrían indicarme la información sobre disponibilidad?",0,sintetico_revisado,val
+ex-1011,Me comentan que mi pedido rayado.,1,sintetico_revisado,val
+ex-0376,¿Hay que solicitar una devolución aunque la entrega esté con fallas?,0,sintetico_revisado,val
+ex-0742,Me gustaría conocer plazo de entrega antes de cambiar mi dirección.,0,sintetico_revisado,val
+ex-0023,Sobre el soporte: tardío y sin novedades.,0,sintetico_revisado,val
+ex-0366,la suscripción incompleto desde ayer.,1,sintetico_revisado,val
+ex-0773,Consulta urgente: el envío incompleto y necesito una solución.,1,sintetico_revisado,val
+ex-0848,Me comentan que el soporte con fallas.,1,sintetico_revisado,val
+ex-0329,Consulta urgente: mi cuenta dañado y necesito una solución.,1,sintetico_revisado,val

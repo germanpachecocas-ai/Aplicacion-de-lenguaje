@@ -1,0 +1,54 @@
+{
+  "estado": "corrida final única sobre prueba; sin ajustes posteriores",
+  "test_sha256": "658e82c52bab951fecd24d39d8f05aa4b836426359c1cd7ae4a5a1dee811a669",
+  "n": 180,
+  "decision_congelada": {
+    "umbral": 0.34,
+    "costos": {
+      "falso_positivo": 1,
+      "falso_negativo": 5
+    },
+    "clase_positiva": "queja",
+    "calibracion": "isotónica",
+    "modelo": "densa_tfidf_v1",
+    "congelado_en": "validación; prueba no utilizada",
+    "max_features": 732,
+    "semilla": 42
+  },
+  "baselines_test": {
+    "clase_mayoritaria": {
+      "exactitud": 0.4888888888888889,
+      "tn": 88,
+      "fp": 0,
+      "fn": 92,
+      "tp": 0,
+      "costo_esperado_por_1000": 2555.555555555555,
+      "costo_total": 460
+    },
+    "regla_palabras_clave": {
+      "exactitud": 0.5611111111111111,
+      "tn": 54,
+      "fp": 34,
+      "fn": 45,
+      "tp": 47,
+      "costo_esperado_por_1000": 1438.888888888889,
+      "costo_total": 259
+    }
+  },
+  "modelo_final": {
+    "exactitud": 0.8444444444444444,
+    "tn": 60,
+    "fp": 28,
+    "fn": 0,
+    "tp": 92,
+    "costo_esperado_por_1000": 155.55555555555557,
+    "costo_total": 28
+  },
+  "calibracion_test": {
+    "metodo": "isotónica",
+    "ece_sin_calibrar": 0.10449588423827476,
+    "ece_calibrada": 0.09140251583785394,
+    "mejora_ece": 0.013093368400420816
+  },
+  "tiempo_total_segundos": 0.006
+}

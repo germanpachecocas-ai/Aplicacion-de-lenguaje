@@ -1,0 +1,11 @@
+text,expected
+,Rechazar: entrada vacía; no clasificar.
+   ,Rechazar: solo espacios; no clasificar.
+hola,Rechazar: texto demasiado corto y sin contexto de dominio.
+The item arrived damaged and I demand a refund,Rechazar: otro idioma; no clasificar.
+¿Cómo está el clima en Marte?,Rechazar: fuera de dominio de atención a cliente.
+asdf qwerty zxcv,Rechazar: texto sin contenido lingüístico útil.
+😐😑🙄,Rechazar: sin texto alfabético.
+Noticias del partido de ayer y el campeonato de tenis,Rechazar: tema ajeno al dominio.
+Consulta sobre el precio del pan en la esquina,Rechazar: dominio distinto (no es atención a cliente de producto).
+El señor García llamó desde el número 555-1234,Rechazar: contiene datos personales; no clasificar y no almacenar.

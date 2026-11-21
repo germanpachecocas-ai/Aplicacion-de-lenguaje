@@ -1,0 +1,13 @@
+{
+  "umbral": 0.34,
+  "costos": {
+    "falso_positivo": 1,
+    "falso_negativo": 5
+  },
+  "clase_positiva": "queja",
+  "calibracion": "isotónica",
+  "modelo": "densa_tfidf_v1",
+  "congelado_en": "validación; prueba no utilizada",
+  "max_features": 732,
+  "semilla": 42
+}

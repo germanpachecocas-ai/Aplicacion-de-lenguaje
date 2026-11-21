@@ -1,0 +1,2123 @@
+{
+  "semilla": 42,
+  "costos": {
+    "falso_positivo": 1,
+    "falso_negativo": 5
+  },
+  "tamano": {
+    "train": 600,
+    "validacion": 240
+  },
+  "caracteristicas_tfidf": 732,
+  "baselines": {
+    "clase_mayoritaria": {
+      "clase": 1,
+      "exactitud": 0.5083333333333333,
+      "tn": 0,
+      "fp": 118,
+      "fn": 0,
+      "tp": 122,
+      "costo_esperado_por_1000": 491.66666666666663,
+      "costo_total": 118
+    },
+    "regla_palabras_clave": {
+      "exactitud": 0.5208333333333334,
+      "tn": 72,
+      "fp": 46,
+      "fn": 69,
+      "tp": 53,
+      "costo_esperado_por_1000": 1629.1666666666667,
+      "costo_total": 391
+    }
+  },
+  "modelo": {
+    "arquitectura": "TF-IDF (1-2 gramas) -> densa 32 ReLU -> densa 1 sigmoide, Adam, early stopping en validación",
+    "epochs_ejecutadas": 17,
+    "mejor_val_loss": 0.3378324199287451,
+    "historial": [
+      {
+        "epoch": 1,
+        "train_loss": 0.9845746046217942,
+        "val_loss": 0.3989316348714168
+      },
+      {
+        "epoch": 2,
+        "train_loss": 1.723047562430315,
+        "val_loss": 0.3378324199287451
+      },
+      {
+        "epoch": 3,
+        "train_loss": 2.093079256440526,
+        "val_loss": 0.3464035982288583
+      },
+      {
+        "epoch": 4,
+        "train_loss": 2.1621716651415754,
+        "val_loss": 0.36640839322173147
+      },
+      {
+        "epoch": 5,
+        "train_loss": 2.223813092474197,
+        "val_loss": 0.38277347480056323
+      },
+      {
+        "epoch": 6,
+        "train_loss": 2.2569540369919454,
+        "val_loss": 0.400560684073822
+      },
+      {
+        "epoch": 7,
+        "train_loss": 2.3563884950264713,
+        "val_loss": 0.4474168595914261
+      },
+      {
+        "epoch": 8,
+        "train_loss": 2.3489511085288854,
+        "val_loss": 0.4736487633120814
+      },
+      {
+        "epoch": 9,
+        "train_loss": 2.3600859449150504,
+        "val_loss": 0.4547286327395313
+      },
+      {
+        "epoch": 10,
+        "train_loss": 2.4376671472221902,
+        "val_loss": 0.4844996747994249
+      },
+      {
+        "epoch": 11,
+        "train_loss": 2.491320617578694,
+        "val_loss": 0.5206040583249505
+      },
+      {
+        "epoch": 12,
+        "train_loss": 2.488865143271369,
+        "val_loss": 0.5278595185035914
+      },
+      {
+        "epoch": 13,
+        "train_loss": 2.5410344553039277,
+        "val_loss": 0.5703208953704144
+      },
+      {
+        "epoch": 14,
+        "train_loss": 2.5570106190156356,
+        "val_loss": 0.5603488289322688
+      },
+      {
+        "epoch": 15,
+        "train_loss": 2.5602291513998083,
+        "val_loss": 0.5864786027088604
+      },
+      {
+        "epoch": 16,
+        "train_loss": 2.6111556689954045,
+        "val_loss": 0.6081822357317979
+      },
+      {
+        "epoch": 17,
+        "train_loss": 2.600381376413708,
+        "val_loss": 0.5987979267906831
+      }
+    ]
+  },
+  "calibracion": {
+    "metodo": "isotónica",
+    "alternativas": {
+      "isotónica": {
+        "ece": 5.791666666657426e-07,
+        "descartada": false
+      },
+      "platt": {
+        "ece": 0.0800867743701143,
+        "descartada": true
+      }
+    },
+    "criterio": "Se prefiere Platt salvo que isotónica mejore el ECE en más de 0.02; isotónica produce probabilidades 0/1 degeneradas que anulan el barrido de umbral.",
+    "ece_antes": 0.06606885957327527,
+    "ece_despues": 5.791666666657426e-07,
+    "ece_recalculado_antes": 0.06606885957327527,
+    "ece_recalculado_despues": 4.6721885619642e-17,
+    "fiabilidad_antes": [
+      {
+        "bin": 5,
+        "n": 26,
+        "confianza": 0.5508809887828229,
+        "exactitud": 0.7307692307692307,
+        "gap": 0.17988824198640785
+      },
+      {
+        "bin": 6,
+        "n": 26,
+        "confianza": 0.6497453792097972,
+        "exactitud": 0.6923076923076923,
+        "gap": 0.042562313097895044
+      },
+      {
+        "bin": 7,
+        "n": 25,
+        "confianza": 0.7508149603854801,
+        "exactitud": 0.6,
+        "gap": -0.15081496038548015
+      },
+      {
+        "bin": 8,
+        "n": 23,
+        "confianza": 0.8389790198783954,
+        "exactitud": 0.6086956521739131,
+        "gap": -0.23028336770448232
+      },
+      {
+        "bin": 9,
+        "n": 140,
+        "confianza": 0.978529140010328,
+        "exactitud": 0.9857142857142858,
+        "gap": 0.007185145703957785
+      }
+    ],
+    "fiabilidad_despues": [
+      {
+        "bin": 5,
+        "n": 13,
+        "confianza": 0.5384615384615383,
+        "exactitud": 0.5384615384615384,
+        "gap": 1.1102230246251565e-16
+      },
+      {
+        "bin": 6,
+        "n": 88,
+        "confianza": 0.6590909090909092,
+        "exactitud": 0.6590909090909091,
+        "gap": -1.1102230246251565e-16
+      },
+      {
+        "bin": 9,
+        "n": 139,
+        "confianza": 1.0,
+        "exactitud": 1.0,
+        "gap": 0.0
+      }
+    ]
+  },
+  "umbral": {
+    "elegido": 0.34,
+    "criterio": "mínimo costo esperado por 1000 casos en validación con probabilidades calibradas; en empate se elige el umbral más alto para reducir falsas alarmas",
+    "mejor_sin_calibrar": {
+      "umbral": 0.16,
+      "tn": 72,
+      "fp": 46,
+      "fn": 0,
+      "tp": 122,
+      "costo_esperado_por_1000": 191.66666666666669,
+      "costo_total": 46
+    },
+    "barrido_sin_calibrar": [
+      {
+        "umbral": 0.05,
+        "tn": 66,
+        "fp": 52,
+        "fn": 0,
+        "tp": 122,
+        "costo_esperado_por_1000": 216.66666666666669,
+        "costo_total": 52
+      },
+      {
+        "umbral": 0.06,
+        "tn": 66,
+        "fp": 52,
+        "fn": 0,
+        "tp": 122,
+        "costo_esperado_por_1000": 216.66666666666669,
+        "costo_total": 52
+      },
+      {
+        "umbral": 0.07,
+        "tn": 68,
+        "fp": 50,
+        "fn": 0,
+        "tp": 122,
+        "costo_esperado_por_1000": 208.33333333333334,
+        "costo_total": 50
+      },
+      {
+        "umbral": 0.08,
+        "tn": 69,
+        "fp": 49,
+        "fn": 0,
+        "tp": 122,
+        "costo_esperado_por_1000": 204.16666666666666,
+        "costo_total": 49
+      },
+      {
+        "umbral": 0.09,
+        "tn": 69,
+        "fp": 49,
+        "fn": 0,
+        "tp": 122,
+        "costo_esperado_por_1000": 204.16666666666666,
+        "costo_total": 49
+      },
+      {
+        "umbral": 0.1,
+        "tn": 70,
+        "fp": 48,
+        "fn": 0,
+        "tp": 122,
+        "costo_esperado_por_1000": 200.0,
+        "costo_total": 48
+      },
+      {
+        "umbral": 0.11,
+        "tn": 70,
+        "fp": 48,
+        "fn": 0,
+        "tp": 122,
+        "costo_esperado_por_1000": 200.0,
+        "costo_total": 48
+      },
+      {
+        "umbral": 0.12,
+        "tn": 70,
+        "fp": 48,
+        "fn": 0,
+        "tp": 122,
+        "costo_esperado_por_1000": 200.0,
+        "costo_total": 48
+      },
+      {
+        "umbral": 0.13,
+        "tn": 71,
+        "fp": 47,
+        "fn": 0,
+        "tp": 122,
+        "costo_esperado_por_1000": 195.83333333333334,
+        "costo_total": 47
+      },
+      {
+        "umbral": 0.14,
+        "tn": 71,
+        "fp": 47,
+        "fn": 0,
+        "tp": 122,
+        "costo_esperado_por_1000": 195.83333333333334,
+        "costo_total": 47
+      },
+      {
+        "umbral": 0.15,
+        "tn": 71,
+        "fp": 47,
+        "fn": 0,
+        "tp": 122,
+        "costo_esperado_por_1000": 195.83333333333334,
+        "costo_total": 47
+      },
+      {
+        "umbral": 0.16,
+        "tn": 72,
+        "fp": 46,
+        "fn": 0,
+        "tp": 122,
+        "costo_esperado_por_1000": 191.66666666666669,
+        "costo_total": 46
+      },
+      {
+        "umbral": 0.17,
+        "tn": 73,
+        "fp": 45,
+        "fn": 1,
+        "tp": 121,
+        "costo_esperado_por_1000": 208.33333333333334,
+        "costo_total": 50
+      },
+      {
+        "umbral": 0.18,
+        "tn": 73,
+        "fp": 45,
+        "fn": 1,
+        "tp": 121,
+        "costo_esperado_por_1000": 208.33333333333334,
+        "costo_total": 50
+      },
+      {
+        "umbral": 0.19,
+        "tn": 74,
+        "fp": 44,
+        "fn": 1,
+        "tp": 121,
+        "costo_esperado_por_1000": 204.16666666666666,
+        "costo_total": 49
+      },
+      {
+        "umbral": 0.2,
+        "tn": 74,
+        "fp": 44,
+        "fn": 1,
+        "tp": 121,
+        "costo_esperado_por_1000": 204.16666666666666,
+        "costo_total": 49
+      },
+      {
+        "umbral": 0.21,
+        "tn": 74,
+        "fp": 44,
+        "fn": 1,
+        "tp": 121,
+        "costo_esperado_por_1000": 204.16666666666666,
+        "costo_total": 49
+      },
+      {
+        "umbral": 0.22,
+        "tn": 74,
+        "fp": 44,
+        "fn": 1,
+        "tp": 121,
+        "costo_esperado_por_1000": 204.16666666666666,
+        "costo_total": 49
+      },
+      {
+        "umbral": 0.23,
+        "tn": 75,
+        "fp": 43,
+        "fn": 2,
+        "tp": 120,
+        "costo_esperado_por_1000": 220.83333333333331,
+        "costo_total": 53
+      },
+      {
+        "umbral": 0.24,
+        "tn": 75,
+        "fp": 43,
+        "fn": 2,
+        "tp": 120,
+        "costo_esperado_por_1000": 220.83333333333331,
+        "costo_total": 53
+      },
+      {
+        "umbral": 0.25,
+        "tn": 75,
+        "fp": 43,
+        "fn": 2,
+        "tp": 120,
+        "costo_esperado_por_1000": 220.83333333333331,
+        "costo_total": 53
+      },
+      {
+        "umbral": 0.26,
+        "tn": 75,
+        "fp": 43,
+        "fn": 2,
+        "tp": 120,
+        "costo_esperado_por_1000": 220.83333333333331,
+        "costo_total": 53
+      },
+      {
+        "umbral": 0.27,
+        "tn": 76,
+        "fp": 42,
+        "fn": 2,
+        "tp": 120,
+        "costo_esperado_por_1000": 216.66666666666669,
+        "costo_total": 52
+      },
+      {
+        "umbral": 0.28,
+        "tn": 77,
+        "fp": 41,
+        "fn": 3,
+        "tp": 119,
+        "costo_esperado_por_1000": 233.33333333333334,
+        "costo_total": 56
+      },
+      {
+        "umbral": 0.29,
+        "tn": 78,
+        "fp": 40,
+        "fn": 4,
+        "tp": 118,
+        "costo_esperado_por_1000": 250.0,
+        "costo_total": 60
+      },
+      {
+        "umbral": 0.3,
+        "tn": 79,
+        "fp": 39,
+        "fn": 5,
+        "tp": 117,
+        "costo_esperado_por_1000": 266.6666666666667,
+        "costo_total": 64
+      },
+      {
+        "umbral": 0.31,
+        "tn": 80,
+        "fp": 38,
+        "fn": 5,
+        "tp": 117,
+        "costo_esperado_por_1000": 262.5,
+        "costo_total": 63
+      },
+      {
+        "umbral": 0.32,
+        "tn": 81,
+        "fp": 37,
+        "fn": 6,
+        "tp": 116,
+        "costo_esperado_por_1000": 279.1666666666667,
+        "costo_total": 67
+      },
+      {
+        "umbral": 0.33,
+        "tn": 82,
+        "fp": 36,
+        "fn": 6,
+        "tp": 116,
+        "costo_esperado_por_1000": 275.0,
+        "costo_total": 66
+      },
+      {
+        "umbral": 0.34,
+        "tn": 82,
+        "fp": 36,
+        "fn": 8,
+        "tp": 114,
+        "costo_esperado_por_1000": 316.66666666666663,
+        "costo_total": 76
+      },
+      {
+        "umbral": 0.35,
+        "tn": 82,
+        "fp": 36,
+        "fn": 9,
+        "tp": 113,
+        "costo_esperado_por_1000": 337.5,
+        "costo_total": 81
+      },
+      {
+        "umbral": 0.36,
+        "tn": 83,
+        "fp": 35,
+        "fn": 9,
+        "tp": 113,
+        "costo_esperado_por_1000": 333.3333333333333,
+        "costo_total": 80
+      },
+      {
+        "umbral": 0.37,
+        "tn": 84,
+        "fp": 34,
+        "fn": 9,
+        "tp": 113,
+        "costo_esperado_por_1000": 329.1666666666667,
+        "costo_total": 79
+      },
+      {
+        "umbral": 0.38,
+        "tn": 84,
+        "fp": 34,
+        "fn": 9,
+        "tp": 113,
+        "costo_esperado_por_1000": 329.1666666666667,
+        "costo_total": 79
+      },
+      {
+        "umbral": 0.39,
+        "tn": 84,
+        "fp": 34,
+        "fn": 9,
+        "tp": 113,
+        "costo_esperado_por_1000": 329.1666666666667,
+        "costo_total": 79
+      },
+      {
+        "umbral": 0.4,
+        "tn": 85,
+        "fp": 33,
+        "fn": 9,
+        "tp": 113,
+        "costo_esperado_por_1000": 325.0,
+        "costo_total": 78
+      },
+      {
+        "umbral": 0.41,
+        "tn": 85,
+        "fp": 33,
+        "fn": 9,
+        "tp": 113,
+        "costo_esperado_por_1000": 325.0,
+        "costo_total": 78
+      },
+      {
+        "umbral": 0.42,
+        "tn": 85,
+        "fp": 33,
+        "fn": 9,
+        "tp": 113,
+        "costo_esperado_por_1000": 325.0,
+        "costo_total": 78
+      },
+      {
+        "umbral": 0.43,
+        "tn": 85,
+        "fp": 33,
+        "fn": 9,
+        "tp": 113,
+        "costo_esperado_por_1000": 325.0,
+        "costo_total": 78
+      },
+      {
+        "umbral": 0.44,
+        "tn": 86,
+        "fp": 32,
+        "fn": 9,
+        "tp": 113,
+        "costo_esperado_por_1000": 320.83333333333337,
+        "costo_total": 77
+      },
+      {
+        "umbral": 0.45,
+        "tn": 90,
+        "fp": 28,
+        "fn": 9,
+        "tp": 113,
+        "costo_esperado_por_1000": 304.16666666666663,
+        "costo_total": 73
+      },
+      {
+        "umbral": 0.46,
+        "tn": 90,
+        "fp": 28,
+        "fn": 11,
+        "tp": 111,
+        "costo_esperado_por_1000": 345.8333333333333,
+        "costo_total": 83
+      },
+      {
+        "umbral": 0.47,
+        "tn": 91,
+        "fp": 27,
+        "fn": 11,
+        "tp": 111,
+        "costo_esperado_por_1000": 341.6666666666667,
+        "costo_total": 82
+      },
+      {
+        "umbral": 0.48,
+        "tn": 93,
+        "fp": 25,
+        "fn": 11,
+        "tp": 111,
+        "costo_esperado_por_1000": 333.3333333333333,
+        "costo_total": 80
+      },
+      {
+        "umbral": 0.49,
+        "tn": 93,
+        "fp": 25,
+        "fn": 12,
+        "tp": 110,
+        "costo_esperado_por_1000": 354.1666666666667,
+        "costo_total": 85
+      },
+      {
+        "umbral": 0.5,
+        "tn": 95,
+        "fp": 23,
+        "fn": 13,
+        "tp": 109,
+        "costo_esperado_por_1000": 366.66666666666663,
+        "costo_total": 88
+      },
+      {
+        "umbral": 0.51,
+        "tn": 95,
+        "fp": 23,
+        "fn": 14,
+        "tp": 108,
+        "costo_esperado_por_1000": 387.5,
+        "costo_total": 93
+      },
+      {
+        "umbral": 0.52,
+        "tn": 96,
+        "fp": 22,
+        "fn": 14,
+        "tp": 108,
+        "costo_esperado_por_1000": 383.33333333333337,
+        "costo_total": 92
+      },
+      {
+        "umbral": 0.53,
+        "tn": 96,
+        "fp": 22,
+        "fn": 14,
+        "tp": 108,
+        "costo_esperado_por_1000": 383.33333333333337,
+        "costo_total": 92
+      },
+      {
+        "umbral": 0.54,
+        "tn": 96,
+        "fp": 22,
+        "fn": 14,
+        "tp": 108,
+        "costo_esperado_por_1000": 383.33333333333337,
+        "costo_total": 92
+      },
+      {
+        "umbral": 0.55,
+        "tn": 96,
+        "fp": 22,
+        "fn": 15,
+        "tp": 107,
+        "costo_esperado_por_1000": 404.1666666666667,
+        "costo_total": 97
+      },
+      {
+        "umbral": 0.56,
+        "tn": 97,
+        "fp": 21,
+        "fn": 15,
+        "tp": 107,
+        "costo_esperado_por_1000": 400.0,
+        "costo_total": 96
+      },
+      {
+        "umbral": 0.57,
+        "tn": 97,
+        "fp": 21,
+        "fn": 15,
+        "tp": 107,
+        "costo_esperado_por_1000": 400.0,
+        "costo_total": 96
+      },
+      {
+        "umbral": 0.58,
+        "tn": 97,
+        "fp": 21,
+        "fn": 18,
+        "tp": 104,
+        "costo_esperado_por_1000": 462.5,
+        "costo_total": 111
+      },
+      {
+        "umbral": 0.59,
+        "tn": 97,
+        "fp": 21,
+        "fn": 19,
+        "tp": 103,
+        "costo_esperado_por_1000": 483.3333333333333,
+        "costo_total": 116
+      },
+      {
+        "umbral": 0.6,
+        "tn": 98,
+        "fp": 20,
+        "fn": 22,
+        "tp": 100,
+        "costo_esperado_por_1000": 541.6666666666666,
+        "costo_total": 130
+      },
+      {
+        "umbral": 0.61,
+        "tn": 99,
+        "fp": 19,
+        "fn": 25,
+        "tp": 97,
+        "costo_esperado_por_1000": 600.0,
+        "costo_total": 144
+      },
+      {
+        "umbral": 0.62,
+        "tn": 99,
+        "fp": 19,
+        "fn": 26,
+        "tp": 96,
+        "costo_esperado_por_1000": 620.8333333333334,
+        "costo_total": 149
+      },
+      {
+        "umbral": 0.63,
+        "tn": 99,
+        "fp": 19,
+        "fn": 28,
+        "tp": 94,
+        "costo_esperado_por_1000": 662.5,
+        "costo_total": 159
+      },
+      {
+        "umbral": 0.64,
+        "tn": 100,
+        "fp": 18,
+        "fn": 28,
+        "tp": 94,
+        "costo_esperado_por_1000": 658.3333333333334,
+        "costo_total": 158
+      },
+      {
+        "umbral": 0.65,
+        "tn": 100,
+        "fp": 18,
+        "fn": 28,
+        "tp": 94,
+        "costo_esperado_por_1000": 658.3333333333334,
+        "costo_total": 158
+      },
+      {
+        "umbral": 0.66,
+        "tn": 100,
+        "fp": 18,
+        "fn": 29,
+        "tp": 93,
+        "costo_esperado_por_1000": 679.1666666666667,
+        "costo_total": 163
+      },
+      {
+        "umbral": 0.67,
+        "tn": 100,
+        "fp": 18,
+        "fn": 31,
+        "tp": 91,
+        "costo_esperado_por_1000": 720.8333333333334,
+        "costo_total": 173
+      },
+      {
+        "umbral": 0.68,
+        "tn": 101,
+        "fp": 17,
+        "fn": 33,
+        "tp": 89,
+        "costo_esperado_por_1000": 758.3333333333333,
+        "costo_total": 182
+      },
+      {
+        "umbral": 0.69,
+        "tn": 102,
+        "fp": 16,
+        "fn": 34,
+        "tp": 88,
+        "costo_esperado_por_1000": 775.0,
+        "costo_total": 186
+      },
+      {
+        "umbral": 0.7,
+        "tn": 102,
+        "fp": 16,
+        "fn": 34,
+        "tp": 88,
+        "costo_esperado_por_1000": 775.0,
+        "costo_total": 186
+      },
+      {
+        "umbral": 0.71,
+        "tn": 102,
+        "fp": 16,
+        "fn": 34,
+        "tp": 88,
+        "costo_esperado_por_1000": 775.0,
+        "costo_total": 186
+      },
+      {
+        "umbral": 0.72,
+        "tn": 103,
+        "fp": 15,
+        "fn": 34,
+        "tp": 88,
+        "costo_esperado_por_1000": 770.8333333333334,
+        "costo_total": 185
+      },
+      {
+        "umbral": 0.73,
+        "tn": 105,
+        "fp": 13,
+        "fn": 34,
+        "tp": 88,
+        "costo_esperado_por_1000": 762.5,
+        "costo_total": 183
+      },
+      {
+        "umbral": 0.74,
+        "tn": 105,
+        "fp": 13,
+        "fn": 35,
+        "tp": 87,
+        "costo_esperado_por_1000": 783.3333333333334,
+        "costo_total": 188
+      },
+      {
+        "umbral": 0.75,
+        "tn": 106,
+        "fp": 12,
+        "fn": 35,
+        "tp": 87,
+        "costo_esperado_por_1000": 779.1666666666666,
+        "costo_total": 187
+      },
+      {
+        "umbral": 0.76,
+        "tn": 108,
+        "fp": 10,
+        "fn": 36,
+        "tp": 86,
+        "costo_esperado_por_1000": 791.6666666666666,
+        "costo_total": 190
+      },
+      {
+        "umbral": 0.77,
+        "tn": 108,
+        "fp": 10,
+        "fn": 37,
+        "tp": 85,
+        "costo_esperado_por_1000": 812.5,
+        "costo_total": 195
+      },
+      {
+        "umbral": 0.78,
+        "tn": 108,
+        "fp": 10,
+        "fn": 39,
+        "tp": 83,
+        "costo_esperado_por_1000": 854.1666666666666,
+        "costo_total": 205
+      },
+      {
+        "umbral": 0.79,
+        "tn": 108,
+        "fp": 10,
+        "fn": 42,
+        "tp": 80,
+        "costo_esperado_por_1000": 916.6666666666666,
+        "costo_total": 220
+      },
+      {
+        "umbral": 0.8,
+        "tn": 108,
+        "fp": 10,
+        "fn": 44,
+        "tp": 78,
+        "costo_esperado_por_1000": 958.3333333333334,
+        "costo_total": 230
+      },
+      {
+        "umbral": 0.81,
+        "tn": 109,
+        "fp": 9,
+        "fn": 48,
+        "tp": 74,
+        "costo_esperado_por_1000": 1037.5,
+        "costo_total": 249
+      },
+      {
+        "umbral": 0.82,
+        "tn": 109,
+        "fp": 9,
+        "fn": 48,
+        "tp": 74,
+        "costo_esperado_por_1000": 1037.5,
+        "costo_total": 249
+      },
+      {
+        "umbral": 0.83,
+        "tn": 111,
+        "fp": 7,
+        "fn": 49,
+        "tp": 73,
+        "costo_esperado_por_1000": 1050.0,
+        "costo_total": 252
+      },
+      {
+        "umbral": 0.84,
+        "tn": 111,
+        "fp": 7,
+        "fn": 50,
+        "tp": 72,
+        "costo_esperado_por_1000": 1070.8333333333333,
+        "costo_total": 257
+      },
+      {
+        "umbral": 0.85,
+        "tn": 112,
+        "fp": 6,
+        "fn": 51,
+        "tp": 71,
+        "costo_esperado_por_1000": 1087.5,
+        "costo_total": 261
+      },
+      {
+        "umbral": 0.86,
+        "tn": 114,
+        "fp": 4,
+        "fn": 53,
+        "tp": 69,
+        "costo_esperado_por_1000": 1120.8333333333333,
+        "costo_total": 269
+      },
+      {
+        "umbral": 0.87,
+        "tn": 114,
+        "fp": 4,
+        "fn": 54,
+        "tp": 68,
+        "costo_esperado_por_1000": 1141.6666666666665,
+        "costo_total": 274
+      },
+      {
+        "umbral": 0.88,
+        "tn": 114,
+        "fp": 4,
+        "fn": 54,
+        "tp": 68,
+        "costo_esperado_por_1000": 1141.6666666666665,
+        "costo_total": 274
+      },
+      {
+        "umbral": 0.89,
+        "tn": 115,
+        "fp": 3,
+        "fn": 54,
+        "tp": 68,
+        "costo_esperado_por_1000": 1137.5,
+        "costo_total": 273
+      },
+      {
+        "umbral": 0.9,
+        "tn": 116,
+        "fp": 2,
+        "fn": 54,
+        "tp": 68,
+        "costo_esperado_por_1000": 1133.3333333333333,
+        "costo_total": 272
+      },
+      {
+        "umbral": 0.91,
+        "tn": 117,
+        "fp": 1,
+        "fn": 56,
+        "tp": 66,
+        "costo_esperado_por_1000": 1170.8333333333335,
+        "costo_total": 281
+      },
+      {
+        "umbral": 0.92,
+        "tn": 117,
+        "fp": 1,
+        "fn": 56,
+        "tp": 66,
+        "costo_esperado_por_1000": 1170.8333333333335,
+        "costo_total": 281
+      },
+      {
+        "umbral": 0.93,
+        "tn": 118,
+        "fp": 0,
+        "fn": 56,
+        "tp": 66,
+        "costo_esperado_por_1000": 1166.6666666666667,
+        "costo_total": 280
+      },
+      {
+        "umbral": 0.94,
+        "tn": 118,
+        "fp": 0,
+        "fn": 57,
+        "tp": 65,
+        "costo_esperado_por_1000": 1187.5,
+        "costo_total": 285
+      },
+      {
+        "umbral": 0.95,
+        "tn": 118,
+        "fp": 0,
+        "fn": 59,
+        "tp": 63,
+        "costo_esperado_por_1000": 1229.1666666666667,
+        "costo_total": 295
+      }
+    ],
+    "barrido_calibrado": [
+      {
+        "umbral": 0.05,
+        "tn": 73,
+        "fp": 45,
+        "fn": 0,
+        "tp": 122,
+        "costo_esperado_por_1000": 187.5,
+        "costo_total": 45
+      },
+      {
+        "umbral": 0.06,
+        "tn": 73,
+        "fp": 45,
+        "fn": 0,
+        "tp": 122,
+        "costo_esperado_por_1000": 187.5,
+        "costo_total": 45
+      },
+      {
+        "umbral": 0.07,
+        "tn": 73,
+        "fp": 45,
+        "fn": 0,
+        "tp": 122,
+        "costo_esperado_por_1000": 187.5,
+        "costo_total": 45
+      },
+      {
+        "umbral": 0.08,
+        "tn": 73,
+        "fp": 45,
+        "fn": 0,
+        "tp": 122,
+        "costo_esperado_por_1000": 187.5,
+        "costo_total": 45
+      },
+      {
+        "umbral": 0.09,
+        "tn": 73,
+        "fp": 45,
+        "fn": 0,
+        "tp": 122,
+        "costo_esperado_por_1000": 187.5,
+        "costo_total": 45
+      },
+      {
+        "umbral": 0.1,
+        "tn": 73,
+        "fp": 45,
+        "fn": 0,
+        "tp": 122,
+        "costo_esperado_por_1000": 187.5,
+        "costo_total": 45
+      },
+      {
+        "umbral": 0.11,
+        "tn": 73,
+        "fp": 45,
+        "fn": 0,
+        "tp": 122,
+        "costo_esperado_por_1000": 187.5,
+        "costo_total": 45
+      },
+      {
+        "umbral": 0.12,
+        "tn": 73,
+        "fp": 45,
+        "fn": 0,
+        "tp": 122,
+        "costo_esperado_por_1000": 187.5,
+        "costo_total": 45
+      },
+      {
+        "umbral": 0.13,
+        "tn": 73,
+        "fp": 45,
+        "fn": 0,
+        "tp": 122,
+        "costo_esperado_por_1000": 187.5,
+        "costo_total": 45
+      },
+      {
+        "umbral": 0.14,
+        "tn": 73,
+        "fp": 45,
+        "fn": 0,
+        "tp": 122,
+        "costo_esperado_por_1000": 187.5,
+        "costo_total": 45
+      },
+      {
+        "umbral": 0.15,
+        "tn": 73,
+        "fp": 45,
+        "fn": 0,
+        "tp": 122,
+        "costo_esperado_por_1000": 187.5,
+        "costo_total": 45
+      },
+      {
+        "umbral": 0.16,
+        "tn": 73,
+        "fp": 45,
+        "fn": 0,
+        "tp": 122,
+        "costo_esperado_por_1000": 187.5,
+        "costo_total": 45
+      },
+      {
+        "umbral": 0.17,
+        "tn": 73,
+        "fp": 45,
+        "fn": 0,
+        "tp": 122,
+        "costo_esperado_por_1000": 187.5,
+        "costo_total": 45
+      },
+      {
+        "umbral": 0.18,
+        "tn": 73,
+        "fp": 45,
+        "fn": 0,
+        "tp": 122,
+        "costo_esperado_por_1000": 187.5,
+        "costo_total": 45
+      },
+      {
+        "umbral": 0.19,
+        "tn": 73,
+        "fp": 45,
+        "fn": 0,
+        "tp": 122,
+        "costo_esperado_por_1000": 187.5,
+        "costo_total": 45
+      },
+      {
+        "umbral": 0.2,
+        "tn": 73,
+        "fp": 45,
+        "fn": 0,
+        "tp": 122,
+        "costo_esperado_por_1000": 187.5,
+        "costo_total": 45
+      },
+      {
+        "umbral": 0.21,
+        "tn": 73,
+        "fp": 45,
+        "fn": 0,
+        "tp": 122,
+        "costo_esperado_por_1000": 187.5,
+        "costo_total": 45
+      },
+      {
+        "umbral": 0.22,
+        "tn": 73,
+        "fp": 45,
+        "fn": 0,
+        "tp": 122,
+        "costo_esperado_por_1000": 187.5,
+        "costo_total": 45
+      },
+      {
+        "umbral": 0.23,
+        "tn": 73,
+        "fp": 45,
+        "fn": 0,
+        "tp": 122,
+        "costo_esperado_por_1000": 187.5,
+        "costo_total": 45
+      },
+      {
+        "umbral": 0.24,
+        "tn": 73,
+        "fp": 45,
+        "fn": 0,
+        "tp": 122,
+        "costo_esperado_por_1000": 187.5,
+        "costo_total": 45
+      },
+      {
+        "umbral": 0.25,
+        "tn": 73,
+        "fp": 45,
+        "fn": 0,
+        "tp": 122,
+        "costo_esperado_por_1000": 187.5,
+        "costo_total": 45
+      },
+      {
+        "umbral": 0.26,
+        "tn": 73,
+        "fp": 45,
+        "fn": 0,
+        "tp": 122,
+        "costo_esperado_por_1000": 187.5,
+        "costo_total": 45
+      },
+      {
+        "umbral": 0.27,
+        "tn": 73,
+        "fp": 45,
+        "fn": 0,
+        "tp": 122,
+        "costo_esperado_por_1000": 187.5,
+        "costo_total": 45
+      },
+      {
+        "umbral": 0.28,
+        "tn": 73,
+        "fp": 45,
+        "fn": 0,
+        "tp": 122,
+        "costo_esperado_por_1000": 187.5,
+        "costo_total": 45
+      },
+      {
+        "umbral": 0.29,
+        "tn": 73,
+        "fp": 45,
+        "fn": 0,
+        "tp": 122,
+        "costo_esperado_por_1000": 187.5,
+        "costo_total": 45
+      },
+      {
+        "umbral": 0.3,
+        "tn": 73,
+        "fp": 45,
+        "fn": 0,
+        "tp": 122,
+        "costo_esperado_por_1000": 187.5,
+        "costo_total": 45
+      },
+      {
+        "umbral": 0.31,
+        "tn": 73,
+        "fp": 45,
+        "fn": 0,
+        "tp": 122,
+        "costo_esperado_por_1000": 187.5,
+        "costo_total": 45
+      },
+      {
+        "umbral": 0.32,
+        "tn": 73,
+        "fp": 45,
+        "fn": 0,
+        "tp": 122,
+        "costo_esperado_por_1000": 187.5,
+        "costo_total": 45
+      },
+      {
+        "umbral": 0.33,
+        "tn": 73,
+        "fp": 45,
+        "fn": 0,
+        "tp": 122,
+        "costo_esperado_por_1000": 187.5,
+        "costo_total": 45
+      },
+      {
+        "umbral": 0.34,
+        "tn": 73,
+        "fp": 45,
+        "fn": 0,
+        "tp": 122,
+        "costo_esperado_por_1000": 187.5,
+        "costo_total": 45
+      },
+      {
+        "umbral": 0.35,
+        "tn": 90,
+        "fp": 28,
+        "fn": 9,
+        "tp": 113,
+        "costo_esperado_por_1000": 304.16666666666663,
+        "costo_total": 73
+      },
+      {
+        "umbral": 0.36,
+        "tn": 90,
+        "fp": 28,
+        "fn": 9,
+        "tp": 113,
+        "costo_esperado_por_1000": 304.16666666666663,
+        "costo_total": 73
+      },
+      {
+        "umbral": 0.37,
+        "tn": 90,
+        "fp": 28,
+        "fn": 9,
+        "tp": 113,
+        "costo_esperado_por_1000": 304.16666666666663,
+        "costo_total": 73
+      },
+      {
+        "umbral": 0.38,
+        "tn": 90,
+        "fp": 28,
+        "fn": 9,
+        "tp": 113,
+        "costo_esperado_por_1000": 304.16666666666663,
+        "costo_total": 73
+      },
+      {
+        "umbral": 0.39,
+        "tn": 90,
+        "fp": 28,
+        "fn": 9,
+        "tp": 113,
+        "costo_esperado_por_1000": 304.16666666666663,
+        "costo_total": 73
+      },
+      {
+        "umbral": 0.4,
+        "tn": 90,
+        "fp": 28,
+        "fn": 9,
+        "tp": 113,
+        "costo_esperado_por_1000": 304.16666666666663,
+        "costo_total": 73
+      },
+      {
+        "umbral": 0.41,
+        "tn": 93,
+        "fp": 25,
+        "fn": 11,
+        "tp": 111,
+        "costo_esperado_por_1000": 333.3333333333333,
+        "costo_total": 80
+      },
+      {
+        "umbral": 0.42,
+        "tn": 93,
+        "fp": 25,
+        "fn": 11,
+        "tp": 111,
+        "costo_esperado_por_1000": 333.3333333333333,
+        "costo_total": 80
+      },
+      {
+        "umbral": 0.43,
+        "tn": 93,
+        "fp": 25,
+        "fn": 11,
+        "tp": 111,
+        "costo_esperado_por_1000": 333.3333333333333,
+        "costo_total": 80
+      },
+      {
+        "umbral": 0.44,
+        "tn": 93,
+        "fp": 25,
+        "fn": 11,
+        "tp": 111,
+        "costo_esperado_por_1000": 333.3333333333333,
+        "costo_total": 80
+      },
+      {
+        "umbral": 0.45,
+        "tn": 93,
+        "fp": 25,
+        "fn": 11,
+        "tp": 111,
+        "costo_esperado_por_1000": 333.3333333333333,
+        "costo_total": 80
+      },
+      {
+        "umbral": 0.46,
+        "tn": 93,
+        "fp": 25,
+        "fn": 11,
+        "tp": 111,
+        "costo_esperado_por_1000": 333.3333333333333,
+        "costo_total": 80
+      },
+      {
+        "umbral": 0.47,
+        "tn": 93,
+        "fp": 25,
+        "fn": 11,
+        "tp": 111,
+        "costo_esperado_por_1000": 333.3333333333333,
+        "costo_total": 80
+      },
+      {
+        "umbral": 0.48,
+        "tn": 93,
+        "fp": 25,
+        "fn": 11,
+        "tp": 111,
+        "costo_esperado_por_1000": 333.3333333333333,
+        "costo_total": 80
+      },
+      {
+        "umbral": 0.49,
+        "tn": 93,
+        "fp": 25,
+        "fn": 11,
+        "tp": 111,
+        "costo_esperado_por_1000": 333.3333333333333,
+        "costo_total": 80
+      },
+      {
+        "umbral": 0.5,
+        "tn": 93,
+        "fp": 25,
+        "fn": 11,
+        "tp": 111,
+        "costo_esperado_por_1000": 333.3333333333333,
+        "costo_total": 80
+      },
+      {
+        "umbral": 0.51,
+        "tn": 97,
+        "fp": 21,
+        "fn": 15,
+        "tp": 107,
+        "costo_esperado_por_1000": 400.0,
+        "costo_total": 96
+      },
+      {
+        "umbral": 0.52,
+        "tn": 97,
+        "fp": 21,
+        "fn": 15,
+        "tp": 107,
+        "costo_esperado_por_1000": 400.0,
+        "costo_total": 96
+      },
+      {
+        "umbral": 0.53,
+        "tn": 97,
+        "fp": 21,
+        "fn": 15,
+        "tp": 107,
+        "costo_esperado_por_1000": 400.0,
+        "costo_total": 96
+      },
+      {
+        "umbral": 0.54,
+        "tn": 97,
+        "fp": 21,
+        "fn": 15,
+        "tp": 107,
+        "costo_esperado_por_1000": 400.0,
+        "costo_total": 96
+      },
+      {
+        "umbral": 0.55,
+        "tn": 97,
+        "fp": 21,
+        "fn": 15,
+        "tp": 107,
+        "costo_esperado_por_1000": 400.0,
+        "costo_total": 96
+      },
+      {
+        "umbral": 0.56,
+        "tn": 97,
+        "fp": 21,
+        "fn": 15,
+        "tp": 107,
+        "costo_esperado_por_1000": 400.0,
+        "costo_total": 96
+      },
+      {
+        "umbral": 0.57,
+        "tn": 97,
+        "fp": 21,
+        "fn": 15,
+        "tp": 107,
+        "costo_esperado_por_1000": 400.0,
+        "costo_total": 96
+      },
+      {
+        "umbral": 0.58,
+        "tn": 97,
+        "fp": 21,
+        "fn": 15,
+        "tp": 107,
+        "costo_esperado_por_1000": 400.0,
+        "costo_total": 96
+      },
+      {
+        "umbral": 0.59,
+        "tn": 97,
+        "fp": 21,
+        "fn": 15,
+        "tp": 107,
+        "costo_esperado_por_1000": 400.0,
+        "costo_total": 96
+      },
+      {
+        "umbral": 0.6,
+        "tn": 97,
+        "fp": 21,
+        "fn": 15,
+        "tp": 107,
+        "costo_esperado_por_1000": 400.0,
+        "costo_total": 96
+      },
+      {
+        "umbral": 0.61,
+        "tn": 97,
+        "fp": 21,
+        "fn": 15,
+        "tp": 107,
+        "costo_esperado_por_1000": 400.0,
+        "costo_total": 96
+      },
+      {
+        "umbral": 0.62,
+        "tn": 97,
+        "fp": 21,
+        "fn": 15,
+        "tp": 107,
+        "costo_esperado_por_1000": 400.0,
+        "costo_total": 96
+      },
+      {
+        "umbral": 0.63,
+        "tn": 97,
+        "fp": 21,
+        "fn": 15,
+        "tp": 107,
+        "costo_esperado_por_1000": 400.0,
+        "costo_total": 96
+      },
+      {
+        "umbral": 0.64,
+        "tn": 97,
+        "fp": 21,
+        "fn": 15,
+        "tp": 107,
+        "costo_esperado_por_1000": 400.0,
+        "costo_total": 96
+      },
+      {
+        "umbral": 0.65,
+        "tn": 108,
+        "fp": 10,
+        "fn": 35,
+        "tp": 87,
+        "costo_esperado_por_1000": 770.8333333333334,
+        "costo_total": 185
+      },
+      {
+        "umbral": 0.66,
+        "tn": 108,
+        "fp": 10,
+        "fn": 35,
+        "tp": 87,
+        "costo_esperado_por_1000": 770.8333333333334,
+        "costo_total": 185
+      },
+      {
+        "umbral": 0.67,
+        "tn": 108,
+        "fp": 10,
+        "fn": 35,
+        "tp": 87,
+        "costo_esperado_por_1000": 770.8333333333334,
+        "costo_total": 185
+      },
+      {
+        "umbral": 0.68,
+        "tn": 118,
+        "fp": 0,
+        "fn": 56,
+        "tp": 66,
+        "costo_esperado_por_1000": 1166.6666666666667,
+        "costo_total": 280
+      },
+      {
+        "umbral": 0.69,
+        "tn": 118,
+        "fp": 0,
+        "fn": 56,
+        "tp": 66,
+        "costo_esperado_por_1000": 1166.6666666666667,
+        "costo_total": 280
+      },
+      {
+        "umbral": 0.7,
+        "tn": 118,
+        "fp": 0,
+        "fn": 56,
+        "tp": 66,
+        "costo_esperado_por_1000": 1166.6666666666667,
+        "costo_total": 280
+      },
+      {
+        "umbral": 0.71,
+        "tn": 118,
+        "fp": 0,
+        "fn": 56,
+        "tp": 66,
+        "costo_esperado_por_1000": 1166.6666666666667,
+        "costo_total": 280
+      },
+      {
+        "umbral": 0.72,
+        "tn": 118,
+        "fp": 0,
+        "fn": 56,
+        "tp": 66,
+        "costo_esperado_por_1000": 1166.6666666666667,
+        "costo_total": 280
+      },
+      {
+        "umbral": 0.73,
+        "tn": 118,
+        "fp": 0,
+        "fn": 56,
+        "tp": 66,
+        "costo_esperado_por_1000": 1166.6666666666667,
+        "costo_total": 280
+      },
+      {
+        "umbral": 0.74,
+        "tn": 118,
+        "fp": 0,
+        "fn": 56,
+        "tp": 66,
+        "costo_esperado_por_1000": 1166.6666666666667,
+        "costo_total": 280
+      },
+      {
+        "umbral": 0.75,
+        "tn": 118,
+        "fp": 0,
+        "fn": 56,
+        "tp": 66,
+        "costo_esperado_por_1000": 1166.6666666666667,
+        "costo_total": 280
+      },
+      {
+        "umbral": 0.76,
+        "tn": 118,
+        "fp": 0,
+        "fn": 56,
+        "tp": 66,
+        "costo_esperado_por_1000": 1166.6666666666667,
+        "costo_total": 280
+      },
+      {
+        "umbral": 0.77,
+        "tn": 118,
+        "fp": 0,
+        "fn": 56,
+        "tp": 66,
+        "costo_esperado_por_1000": 1166.6666666666667,
+        "costo_total": 280
+      },
+      {
+        "umbral": 0.78,
+        "tn": 118,
+        "fp": 0,
+        "fn": 56,
+        "tp": 66,
+        "costo_esperado_por_1000": 1166.6666666666667,
+        "costo_total": 280
+      },
+      {
+        "umbral": 0.79,
+        "tn": 118,
+        "fp": 0,
+        "fn": 56,
+        "tp": 66,
+        "costo_esperado_por_1000": 1166.6666666666667,
+        "costo_total": 280
+      },
+      {
+        "umbral": 0.8,
+        "tn": 118,
+        "fp": 0,
+        "fn": 56,
+        "tp": 66,
+        "costo_esperado_por_1000": 1166.6666666666667,
+        "costo_total": 280
+      },
+      {
+        "umbral": 0.81,
+        "tn": 118,
+        "fp": 0,
+        "fn": 56,
+        "tp": 66,
+        "costo_esperado_por_1000": 1166.6666666666667,
+        "costo_total": 280
+      },
+      {
+        "umbral": 0.82,
+        "tn": 118,
+        "fp": 0,
+        "fn": 56,
+        "tp": 66,
+        "costo_esperado_por_1000": 1166.6666666666667,
+        "costo_total": 280
+      },
+      {
+        "umbral": 0.83,
+        "tn": 118,
+        "fp": 0,
+        "fn": 56,
+        "tp": 66,
+        "costo_esperado_por_1000": 1166.6666666666667,
+        "costo_total": 280
+      },
+      {
+        "umbral": 0.84,
+        "tn": 118,
+        "fp": 0,
+        "fn": 56,
+        "tp": 66,
+        "costo_esperado_por_1000": 1166.6666666666667,
+        "costo_total": 280
+      },
+      {
+        "umbral": 0.85,
+        "tn": 118,
+        "fp": 0,
+        "fn": 56,
+        "tp": 66,
+        "costo_esperado_por_1000": 1166.6666666666667,
+        "costo_total": 280
+      },
+      {
+        "umbral": 0.86,
+        "tn": 118,
+        "fp": 0,
+        "fn": 56,
+        "tp": 66,
+        "costo_esperado_por_1000": 1166.6666666666667,
+        "costo_total": 280
+      },
+      {
+        "umbral": 0.87,
+        "tn": 118,
+        "fp": 0,
+        "fn": 56,
+        "tp": 66,
+        "costo_esperado_por_1000": 1166.6666666666667,
+        "costo_total": 280
+      },
+      {
+        "umbral": 0.88,
+        "tn": 118,
+        "fp": 0,
+        "fn": 56,
+        "tp": 66,
+        "costo_esperado_por_1000": 1166.6666666666667,
+        "costo_total": 280
+      },
+      {
+        "umbral": 0.89,
+        "tn": 118,
+        "fp": 0,
+        "fn": 56,
+        "tp": 66,
+        "costo_esperado_por_1000": 1166.6666666666667,
+        "costo_total": 280
+      },
+      {
+        "umbral": 0.9,
+        "tn": 118,
+        "fp": 0,
+        "fn": 56,
+        "tp": 66,
+        "costo_esperado_por_1000": 1166.6666666666667,
+        "costo_total": 280
+      },
+      {
+        "umbral": 0.91,
+        "tn": 118,
+        "fp": 0,
+        "fn": 56,
+        "tp": 66,
+        "costo_esperado_por_1000": 1166.6666666666667,
+        "costo_total": 280
+      },
+      {
+        "umbral": 0.92,
+        "tn": 118,
+        "fp": 0,
+        "fn": 56,
+        "tp": 66,
+        "costo_esperado_por_1000": 1166.6666666666667,
+        "costo_total": 280
+      },
+      {
+        "umbral": 0.93,
+        "tn": 118,
+        "fp": 0,
+        "fn": 56,
+        "tp": 66,
+        "costo_esperado_por_1000": 1166.6666666666667,
+        "costo_total": 280
+      },
+      {
+        "umbral": 0.94,
+        "tn": 118,
+        "fp": 0,
+        "fn": 56,
+        "tp": 66,
+        "costo_esperado_por_1000": 1166.6666666666667,
+        "costo_total": 280
+      },
+      {
+        "umbral": 0.95,
+        "tn": 118,
+        "fp": 0,
+        "fn": 56,
+        "tp": 66,
+        "costo_esperado_por_1000": 1166.6666666666667,
+        "costo_total": 280
+      }
+    ]
+  },
+  "metricas_validacion": {
+    "exactitud_modelo_umbral_0.5_sin_calibrar": 0.85,
+    "exactitud_modelo_final": 0.8125,
+    "tn": 73,
+    "fp": 45,
+    "fn": 0,
+    "tp": 122,
+    "costo_esperado_por_1000": 187.5,
+    "costo_total": 45
+  },
+  "error_analysis": [
+    {
+      "id": "ex-0962",
+      "texto": "la cafetera tardio desde ayer.",
+      "clase_real": 0,
+      "clase_predicha": 1,
+      "probabilidad": 0.6774193548387096,
+      "tipo_falla": "texto demasiado corto",
+      "hipotesis": "Hay pocas señales léxicas para discriminar la clase."
+    },
+    {
+      "id": "ex-0400",
+      "texto": "Sobre la devolución: rayado y sin novedades.",
+      "clase_real": 0,
+      "clase_predicha": 1,
+      "probabilidad": 0.6774193548387096,
+      "tipo_falla": "etiqueta ambigua con superficie compartida",
+      "hipotesis": "La misma forma léxica aparece con ambas etiquetas en los datos; existe ruido irreducible que ningún modelo puede resolver."
+    },
+    {
+      "id": "ex-0041",
+      "texto": "Sobre mi pedido: incompleto y sin novedades.",
+      "clase_real": 0,
+      "clase_predicha": 1,
+      "probabilidad": 0.6774193548387096,
+      "tipo_falla": "etiqueta ambigua con superficie compartida",
+      "hipotesis": "La misma forma léxica aparece con ambas etiquetas en los datos; existe ruido irreducible que ningún modelo puede resolver."
+    },
+    {
+      "id": "ex-0186",
+      "texto": "la bicicleta abierto desde hace una semana.",
+      "clase_real": 0,
+      "clase_predicha": 1,
+      "probabilidad": 0.6774193548387096,
+      "tipo_falla": "otro",
+      "hipotesis": "No se identificó una causa única; requiere revisión manual del caso."
+    },
+    {
+      "id": "ex-0157",
+      "texto": "Sobre mi pedido: dañado y sin novedades.",
+      "clase_real": 0,
+      "clase_predicha": 1,
+      "probabilidad": 0.6774193548387096,
+      "tipo_falla": "etiqueta ambigua con superficie compartida",
+      "hipotesis": "La misma forma léxica aparece con ambas etiquetas en los datos; existe ruido irreducible que ningún modelo puede resolver."
+    },
+    {
+      "id": "ex-0441",
+      "texto": "Sobre la garantía: tardio y sin novedades.",
+      "clase_real": 0,
+      "clase_predicha": 1,
+      "probabilidad": 0.6774193548387096,
+      "tipo_falla": "etiqueta ambigua con superficie compartida",
+      "hipotesis": "La misma forma léxica aparece con ambas etiquetas en los datos; existe ruido irreducible que ningún modelo puede resolver."
+    },
+    {
+      "id": "ex-0163",
+      "texto": "Sobre mi cuenta: mojado y sin novedades.",
+      "clase_real": 0,
+      "clase_predicha": 1,
+      "probabilidad": 0.6774193548387096,
+      "tipo_falla": "etiqueta ambigua con superficie compartida",
+      "hipotesis": "La misma forma léxica aparece con ambas etiquetas en los datos; existe ruido irreducible que ningún modelo puede resolver."
+    },
+    {
+      "id": "ex-0983",
+      "texto": "la factura rayado y no tengo respuesta.",
+      "clase_real": 0,
+      "clase_predicha": 1,
+      "probabilidad": 0.6774193548387096,
+      "tipo_falla": "etiqueta ambigua con superficie compartida",
+      "hipotesis": "La misma forma léxica aparece con ambas etiquetas en los datos; existe ruido irreducible que ningún modelo puede resolver."
+    },
+    {
+      "id": "ex-0335",
+      "texto": "la factura rayado y no tengo respueta.",
+      "clase_real": 0,
+      "clase_predicha": 1,
+      "probabilidad": 0.6774193548387096,
+      "tipo_falla": "texto con faltas de ortografía",
+      "hipotesis": "La falta ortográfica debilita las señales léxicas del TF-IDF y reduce la probabilidad de la clase correcta."
+    },
+    {
+      "id": "ex-0490",
+      "texto": "Sobre mi pedido: abierto y sin novedades.",
+      "clase_real": 0,
+      "clase_predicha": 1,
+      "probabilidad": 0.6774193548387096,
+      "tipo_falla": "etiqueta ambigua con superficie compartida",
+      "hipotesis": "La misma forma léxica aparece con ambas etiquetas en los datos; existe ruido irreducible que ningún modelo puede resolver."
+    },
+    {
+      "id": "ex-0247",
+      "texto": "la devolución abierto, ¿qué sigue?",
+      "clase_real": 0,
+      "clase_predicha": 1,
+      "probabilidad": 0.6451612903225806,
+      "tipo_falla": "etiqueta ambigua con superficie compartida",
+      "hipotesis": "La misma forma léxica aparece con ambas etiquetas en los datos; existe ruido irreducible que ningún modelo puede resolver."
+    },
+    {
+      "id": "ex-0903",
+      "texto": "Sobre la devolución: tardío y sin novedades.",
+      "clase_real": 0,
+      "clase_predicha": 1,
+      "probabilidad": 0.6451612903225806,
+      "tipo_falla": "etiqueta ambigua con superficie compartida",
+      "hipotesis": "La misma forma léxica aparece con ambas etiquetas en los datos; existe ruido irreducible que ningún modelo puede resolver."
+    },
+    {
+      "id": "ex-0562",
+      "texto": "el monitor abierto desde hace una semana.",
+      "clase_real": 0,
+      "clase_predicha": 1,
+      "probabilidad": 0.6451612903225806,
+      "tipo_falla": "otro",
+      "hipotesis": "No se identificó una causa única; requiere revisión manual del caso."
+    },
+    {
+      "id": "ex-0321",
+      "texto": "Sobre mi solicitud: con fallas y sin novedades.",
+      "clase_real": 0,
+      "clase_predicha": 1,
+      "probabilidad": 0.6451612903225806,
+      "tipo_falla": "etiqueta ambigua con superficie compartida",
+      "hipotesis": "La misma forma léxica aparece con ambas etiquetas en los datos; existe ruido irreducible que ningún modelo puede resolver."
+    },
+    {
+      "id": "ex-0829",
+      "texto": "Sobre el cobro: rayado y sin novedades.",
+      "clase_real": 0,
+      "clase_predicha": 1,
+      "probabilidad": 0.6451612903225806,
+      "tipo_falla": "etiqueta ambigua con superficie compartida",
+      "hipotesis": "La misma forma léxica aparece con ambas etiquetas en los datos; existe ruido irreducible que ningún modelo puede resolver."
+    },
+    {
+      "id": "ex-0878",
+      "texto": "el pedido rayado desde ayer.",
+      "clase_real": 0,
+      "clase_predicha": 1,
+      "probabilidad": 0.6451612903225806,
+      "tipo_falla": "texto demasiado corto",
+      "hipotesis": "Hay pocas señales léxicas para discriminar la clase."
+    },
+    {
+      "id": "ex-0768",
+      "texto": "la devolución dañado y no tengo respuesta.",
+      "clase_real": 0,
+      "clase_predicha": 1,
+      "probabilidad": 0.6451612903225806,
+      "tipo_falla": "etiqueta ambigua con superficie compartida",
+      "hipotesis": "La misma forma léxica aparece con ambas etiquetas en los datos; existe ruido irreducible que ningún modelo puede resolver."
+    },
+    {
+      "id": "ex-0722",
+      "texto": "el teléfono tardío desde después de la actualización..",
+      "clase_real": 0,
+      "clase_predicha": 1,
+      "probabilidad": 0.6451612903225806,
+      "tipo_falla": "texto con faltas de ortografía",
+      "hipotesis": "La falta ortográfica debilita las señales léxicas del TF-IDF y reduce la probabilidad de la clase correcta."
+    },
+    {
+      "id": "ex-0181",
+      "texto": "la devolución incompleto y no tengo respuesta.",
+      "clase_real": 0,
+      "clase_predicha": 1,
+      "probabilidad": 0.6451612903225806,
+      "tipo_falla": "etiqueta ambigua con superficie compartida",
+      "hipotesis": "La misma forma léxica aparece con ambas etiquetas en los datos; existe ruido irreducible que ningún modelo puede resolver."
+    },
+    {
+      "id": "ex-0397",
+      "texto": "Sobre mi solicitud: tardío y sin novedades.",
+      "clase_real": 0,
+      "clase_predicha": 1,
+      "probabilidad": 0.6451612903225806,
+      "tipo_falla": "etiqueta ambigua con superficie compartida",
+      "hipotesis": "La misma forma léxica aparece con ambas etiquetas en los datos; existe ruido irreducible que ningún modelo puede resolver."
+    }
+  ],
+  "fuera_de_dominio": [
+    {
+      "entrada": "",
+      "respuesta_esperada": "Rechazar: entrada vacía; no clasificar.",
+      "respuesta_app": "Rechazo: entrada vacía o solo espacios",
+      "rechazada": true,
+      "motivo": "entrada vacía o solo espacios"
+    },
+    {
+      "entrada": "   ",
+      "respuesta_esperada": "Rechazar: solo espacios; no clasificar.",
+      "respuesta_app": "Rechazo: entrada vacía o solo espacios",
+      "rechazada": true,
+      "motivo": "entrada vacía o solo espacios"
+    },
+    {
+      "entrada": "hola",
+      "respuesta_esperada": "Rechazar: texto demasiado corto y sin contexto de dominio.",
+      "respuesta_app": "Rechazo: texto demasiado corto o sin contenido alfabético suficiente",
+      "rechazada": true,
+      "motivo": "texto demasiado corto o sin contenido alfabético suficiente"
+    },
+    {
+      "entrada": "The item arrived damaged and I demand a refund",
+      "respuesta_esperada": "Rechazar: otro idioma; no clasificar.",
+      "respuesta_app": "Rechazo: texto en otro idioma",
+      "rechazada": true,
+      "motivo": "texto en otro idioma"
+    },
+    {
+      "entrada": "¿Cómo está el clima en Marte?",
+      "respuesta_esperada": "Rechazar: fuera de dominio de atención a cliente.",
+      "respuesta_app": "Rechazo: sin vocabulario del dominio de atención a cliente",
+      "rechazada": true,
+      "motivo": "sin vocabulario del dominio de atención a cliente"
+    },
+    {
+      "entrada": "asdf qwerty zxcv",
+      "respuesta_esperada": "Rechazar: texto sin contenido lingüístico útil.",
+      "respuesta_app": "Rechazo: sin vocabulario del dominio de atención a cliente",
+      "rechazada": true,
+      "motivo": "sin vocabulario del dominio de atención a cliente"
+    },
+    {
+      "entrada": "😐😑🙄",
+      "respuesta_esperada": "Rechazar: sin texto alfabético.",
+      "respuesta_app": "Rechazo: texto demasiado corto o sin contenido alfabético suficiente",
+      "rechazada": true,
+      "motivo": "texto demasiado corto o sin contenido alfabético suficiente"
+    },
+    {
+      "entrada": "Noticias del partido de ayer y el campeonato de tenis",
+      "respuesta_esperada": "Rechazar: tema ajeno al dominio.",
+      "respuesta_app": "Rechazo: sin vocabulario del dominio de atención a cliente",
+      "rechazada": true,
+      "motivo": "sin vocabulario del dominio de atención a cliente"
+    },
+    {
+      "entrada": "Consulta sobre el precio del pan en la esquina",
+      "respuesta_esperada": "Rechazar: dominio distinto (no es atención a cliente de producto).",
+      "respuesta_app": "Rechazo: sin vocabulario del dominio de atención a cliente",
+      "rechazada": true,
+      "motivo": "sin vocabulario del dominio de atención a cliente"
+    },
+    {
+      "entrada": "El señor García llamó desde el número 555-1234",
+      "respuesta_esperada": "Rechazar: contiene datos personales; no clasificar y no almacenar.",
+      "respuesta_app": "Rechazo: posible dato personal: se rechaza y no se almacena",
+      "rechazada": true,
+      "motivo": "posible dato personal: se rechaza y no se almacena"
+    }
+  ],
+  "tiempo_ejecucion_segundos": 0.57
+}

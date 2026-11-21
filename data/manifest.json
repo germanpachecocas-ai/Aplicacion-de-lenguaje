@@ -1,0 +1,14 @@
+{
+  "seed": 42,
+  "total_ejemplos": 1020,
+  "train": 600,
+  "validacion": 240,
+  "prueba": 180,
+  "split": "estratificado 600/240/180, semilla 42; prueba aislada en data/test.csv",
+  "etiquetado": "68% con etiqueta derivada de la intención de la plantilla; 32% casos limítrofes con superficie compartida y etiqueta asignada por criterio editorial, con ruido irreducible declarado.",
+  "who_labeled": "Etiquetas asignadas por el generador (asistente) según intención de plantilla; German revisó una muestra de 60 casos en ~20 minutos y confirmó el criterio. Limitación del montaje declarada.",
+  "datos_personales": "Ninguno: sin nombres, correos, teléfonos ni identificadores.",
+  "test_sha256": "658e82c52bab951fecd24d39d8f05aa4b836426359c1cd7ae4a5a1dee811a669",
+  "dev_sha256": "6c7d33cae0d604ecb7fb17b829eff8f26d0363fd3f5011a1f9c3edb3ff3f342b",
+  "reglas_uso": "data/test.csv solo se lee una vez desde scripts/final_test.py tras fijar modelo, calibración y umbral en validación."
+}
